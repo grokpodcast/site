@@ -1,0 +1,41 @@
+/* Header */
+
+header {
+  width:940px;
+}
+
+
+/* Nav */
+
+#navigation {
+  width:880px;
+}
+
+
+/* Post Infos */
+
+#post-infos {
+  width:880px;
+}
+
+
+/* Content */
+
+#content {
+  width:880px;
+}
+
+#entry {
+	width:550px;
+}
+
+
+/* Aside */
+
+aside {
+	width:290px;
+}
+
+aside img {
+  width:288px;
+}

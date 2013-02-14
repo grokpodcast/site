@@ -1,0 +1,8 @@
+server:     true
+auto:       true
+permalink:  :pretty
+markdown:   rdiscount
+exclude: ['Rakefile', 'README', 'Gemfile', 'Gemfile.lock', 'config.rb']
+sass:
+  syntax: scss        # scss|sass
+  style:  compressed  # nested|expanded|compact|compressed
