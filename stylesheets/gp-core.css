@@ -355,3 +355,46 @@ footer p {
 #footer-logo:hover {
   opacity:.9;
 }
+
+#listen {
+  background: #555;
+  width: 790px;
+  clear: both;
+  padding: 70px 75px;
+  overflow: hidden;
+}
+
+#listen li {
+  float: left;
+  background: #ccc;
+  padding: 18px 22px;
+  border-radius: 3px;
+}
+
+#listen a {
+  color: #fff;
+}
+
+#listen .lastepi {
+  width: 149px;
+  margin-right: 70px;
+}
+
+#listen .rss {
+  width: 171px;
+  margin-right: 70px;
+}
+
+#listen .itunes {
+  width: 195px;
+}
+
+#epi-list {
+
+}
+
+#epi-list li {
+  float: left;
+  width: 270px;
+  height: 330px;
+}
