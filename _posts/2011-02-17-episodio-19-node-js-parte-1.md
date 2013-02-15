@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Node.js'
 title: Episódio 19 - Node.js - Parte 1
 tags:
 - Convidados

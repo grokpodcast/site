@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Sistemas de controle de versão'
 title: Episódio 24 – Sistemas de controle de versão (GitHub) – Parte 3
 tags:
 - AbstracJ

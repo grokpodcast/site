@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Steve Jobs'
 title: Episódio 54 – Steve Jobs – Parte 1 de 2
 tags:
 - Apple

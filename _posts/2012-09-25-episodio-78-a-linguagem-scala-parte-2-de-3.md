@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'A linguagem Scala'
 title: Episódio 78 – A linguagem Scala – Parte 2 de 3
 tags:
 - Podcast

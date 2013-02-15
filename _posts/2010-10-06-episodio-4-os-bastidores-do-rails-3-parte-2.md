@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Os bastidores do Rails 3'
 title: Episódio 4 – Os bastidores do Rails 3 – Parte 2
 tags:
 - Convidados

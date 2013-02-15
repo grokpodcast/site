@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Conquistando o Vale do Silício'
 title: Episódio 35 – Conquistando o Vale do Silício – Parte 2 de 5 (Twitter)
 tags:
 - Carreira

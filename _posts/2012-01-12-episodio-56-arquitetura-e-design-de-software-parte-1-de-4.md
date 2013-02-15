@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Arquitetura e Design de Software'
 title: Episódio 56 – Arquitetura e Design de Software  – Parte 1 de 4
 tags:
 - Arquitetura

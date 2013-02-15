@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Singularidade e Biologia Sintética'
 title: Episódio 14 – Singularidade e Biologia Sintética – Parte 2
 tags:
 - Podcast

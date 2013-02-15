@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Erlang'
 title: Episódio 40 - Erlang - Parte 2 de 3
 tags:
 - Convidados

@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Mobile Payments'
 title: Episódio 48 – Mobile Payments – Parte 1 de 3
 tags:
 - Convidados

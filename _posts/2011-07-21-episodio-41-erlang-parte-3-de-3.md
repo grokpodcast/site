@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Erlang'
 title: Episódio 41 - Erlang - Parte 3 de 3
 tags:
 - Convidados

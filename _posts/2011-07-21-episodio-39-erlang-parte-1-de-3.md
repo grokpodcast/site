@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Erlang'
 title: Episódio 39 - Erlang - Parte 1 de 3
 tags:
 - Concorrência

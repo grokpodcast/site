@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Sistemas de controle de versão'
 title: Episódio 22 – Sistemas de controle de versão – Parte 1
 tags:
 - AbstracJ

@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Tecnologia Microsoft'
 title: Episódio 28 – Tecnologia Microsoft – Parte 1 de 3
 tags:
 - Convidados

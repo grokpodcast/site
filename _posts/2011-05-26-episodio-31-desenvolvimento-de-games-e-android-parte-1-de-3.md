@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Desenvolvimento de Games e Android'
 title: Episódio 31 – Desenvolvimento de Games e Android – Parte 1 de 3
 tags:
 - android

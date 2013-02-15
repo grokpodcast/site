@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'PHP: Hypertext Preprocessor'
 title: ! 'Episódio 52 – PHP: Hypertext Preprocessor – Parte 2 de 3'
 tags:
 - Comunidade

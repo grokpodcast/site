@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Tecnologia Microsoft'
 title: Episódio 29 – Tecnologia Microsoft – Parte 2 de 3
 tags:
 - Convidados

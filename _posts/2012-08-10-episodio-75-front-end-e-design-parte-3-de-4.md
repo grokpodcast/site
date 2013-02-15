@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Front-end e Design'
 title: Episódio 75 – Front-end e Design – Parte 3 de 4
 tags:
 - Carreira

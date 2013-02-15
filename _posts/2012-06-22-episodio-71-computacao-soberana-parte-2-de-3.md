@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Computação Soberana'
 title: Episódio 71 – Computação Soberana – Parte 2 de 3
 tags:
 - Computação Soberana

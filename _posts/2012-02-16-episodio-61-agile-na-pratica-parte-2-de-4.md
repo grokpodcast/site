@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Agile na prática'
 title: Episódio 61 – Agile na prática – Parte 2 de 4
 tags:
 - Agile

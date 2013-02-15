@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'A linguagem Python'
 title: Episódio 6 – A linguagem Python – Parte 1
 tags:
 - Comunidade

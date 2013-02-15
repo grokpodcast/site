@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Front-end e Design'
 title: Episódio 74 – Front-end e Design – Parte 2 de 4
 tags:
 - Convidados

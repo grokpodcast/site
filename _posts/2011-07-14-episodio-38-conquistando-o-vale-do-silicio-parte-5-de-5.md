@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Conquistando o Vale do Silício'
 title: Episódio 38 - Conquistando o Vale do Silício - Parte 5 de 5
 tags:
 - Carreira

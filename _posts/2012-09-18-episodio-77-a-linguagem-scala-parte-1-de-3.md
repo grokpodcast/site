@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'A linguagem Scala'
 title: Episódio 77 – A linguagem Scala – Parte 1 de 3
 tags:
 - Alberto Souza

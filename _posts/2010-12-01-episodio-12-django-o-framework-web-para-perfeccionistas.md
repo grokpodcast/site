@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Django'
 title: Episódio 12 – Django - O framework web para perfeccionistas
 tags:
 - Convidados

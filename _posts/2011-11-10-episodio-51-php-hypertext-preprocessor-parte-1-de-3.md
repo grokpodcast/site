@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'PHP: Hypertext Preprocessor'
 title: ! 'Episódio 51 – PHP: Hypertext Preprocessor – Parte 1 de 3'
 tags:
 - Convidados

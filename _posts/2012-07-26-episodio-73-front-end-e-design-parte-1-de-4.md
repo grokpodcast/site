@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Front-end e Design'
 title: Episódio 73 – Front-end e Design – Parte 1 de 4
 tags:
 - Convidados

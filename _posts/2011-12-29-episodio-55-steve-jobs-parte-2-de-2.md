@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Steve Jobs'
 title: Episódio 55 – Steve Jobs – Parte 2 de 2
 tags:
 - Apple

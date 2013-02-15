@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'A linguagem Lua'
 title: Episódio 68 – A linguagem Lua – Parte 2 de 3
 tags:
 - Convidados

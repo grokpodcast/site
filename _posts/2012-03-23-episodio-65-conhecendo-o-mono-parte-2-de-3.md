@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Conhecendo o Mono'
 title: Episódio 65 – Conhecendo o Mono – Parte 2 de 3
 tags:
 - .NET

@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Tecnologia Microsoft'
 title: Episódio 30 – Tecnologia Microsoft – Parte 3 de 3
 tags:
 - Carreira

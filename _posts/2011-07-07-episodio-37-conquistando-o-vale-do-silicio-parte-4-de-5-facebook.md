@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Conquistando o Vale do Silício'
 title: Episódio 37 – Conquistando o Vale do Silício – Parte 4 de 5 (Facebook)
 tags:
 - Convidados

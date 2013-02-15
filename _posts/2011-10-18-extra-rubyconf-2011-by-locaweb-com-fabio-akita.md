@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'RubyConf'
 title: Extra - RubyConf 2011 by Locaweb com Fabio Akita
 tags:
 - Convidados

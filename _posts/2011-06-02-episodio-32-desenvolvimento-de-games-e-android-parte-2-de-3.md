@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Desenvolvimento de Games e Android'
 title: Episódio 32 – Desenvolvimento de Games e Android – Parte 2 de 3
 tags:
 - android

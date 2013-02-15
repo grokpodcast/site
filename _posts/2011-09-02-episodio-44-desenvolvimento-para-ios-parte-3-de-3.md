@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Desenvolvimento para iOS'
 title: Episódio 44 – Desenvolvimento para iOS – Parte 3 de 3
 tags:
 - Apple

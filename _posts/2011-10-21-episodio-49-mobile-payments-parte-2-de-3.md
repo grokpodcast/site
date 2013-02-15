@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Mobile Payments'
 title: Episódio 49 – Mobile Payments – Parte 2 de 3
 tags:
 - Convidados

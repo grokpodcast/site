@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Repensando os bancos de dados'
 title: Episódio 47 - Repensando os bancos de dados - NoSQL - Parte 3 de 3
 tags:
 - Convidados

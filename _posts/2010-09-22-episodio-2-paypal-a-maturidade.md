@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Paypal'
 title: Episódio 2 - Paypal - A maturidade
 tags:
 - Empreendedorismo

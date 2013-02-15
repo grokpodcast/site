@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'A linguagem Lua'
 title: Episódio 69 – A linguagem Lua – Parte 3 de 3
 tags:
 - Convidados

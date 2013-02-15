@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Entrevista com Cauê Guerra'
 title: Episódio 8 - De 0 a 100 em 2 anos - Entrevista com Cauê Guerra
 tags:
 - Caelum

@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Conquistando o Vale do Silício'
 title: Episódio 36 – Conquistando o Vale do Silício – Parte 3 de 5 (Heroku)
 tags:
 - Carreira

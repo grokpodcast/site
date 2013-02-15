@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Rework'
 title: Episódio 18 - Rework - Parte 3
 tags:
 - 37signals

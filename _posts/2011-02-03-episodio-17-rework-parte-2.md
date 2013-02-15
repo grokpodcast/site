@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Rework'
 title: Episódio 17 - Rework - Parte 2
 tags:
 - 37signals

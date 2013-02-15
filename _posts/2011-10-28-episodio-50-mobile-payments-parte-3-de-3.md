@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Mobile Payments'
 title: Episódio 50 – Mobile Payments – Parte 3 de 3
 tags:
 - celular

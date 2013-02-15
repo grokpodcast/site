@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Rails Core Team'
 title: Episódio 82 – Brasileiros no Rails Core Team – Parte 3 de 3
 tags:
 - Carlos Antonio da Silva

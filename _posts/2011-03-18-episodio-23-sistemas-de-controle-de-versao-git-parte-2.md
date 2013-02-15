@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Sistemas de controle de versão'
 title: Episódio 23 – Sistemas de controle de versão (Git) – Parte 2
 tags:
 - AbstracJ

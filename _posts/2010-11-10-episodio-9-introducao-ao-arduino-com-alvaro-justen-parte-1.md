@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Introdução ao Arduíno'
 title: Episódio 9 - Introdução ao Arduíno com Álvaro Justen - Parte 1
 tags:
 - Arduino

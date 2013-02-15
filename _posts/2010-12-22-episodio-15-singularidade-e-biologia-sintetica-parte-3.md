@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Singularidade e Biologia Sintética'
 title: Episódio 15 – Singularidade e Biologia Sintética – Parte 3
 tags:
 - Podcast

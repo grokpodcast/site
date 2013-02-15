@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Carreira na área de TI'
 title: Episódio 25 – Carreira na área de TI – Parte 1
 tags:
 - Carreira

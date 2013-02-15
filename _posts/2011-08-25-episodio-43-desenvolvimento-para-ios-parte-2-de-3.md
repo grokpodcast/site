@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Desenvolvimento para iOS'
 title: Episódio 43 – Desenvolvimento para iOS – Parte 2 de 3
 tags:
 - Apple

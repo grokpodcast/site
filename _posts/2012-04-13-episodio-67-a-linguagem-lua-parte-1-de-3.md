@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'A linguagem Lua'
 title: Episódio 67 – A linguagem Lua – Parte 1 de 3
 tags:
 - Convidados

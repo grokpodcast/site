@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Paypal'
 title: Episódio 1 – Paypal – como tudo começou
 tags:
 - Empreendedorismo

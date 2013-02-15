@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Repensando os bancos de dados'
 title: Episódio 46 - Repensando os bancos de dados - NoSQL - Parte 2 de 3
 tags:
 - Cassandra

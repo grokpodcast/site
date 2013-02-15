@@ -1,5 +1,6 @@
 ---
 layout: post
+serie: 'Os bastidores do Rails 3'
 title: Episódio 3 - Os bastidores do Rails 3 - Parte 1
 tags:
 - Desenvolvimento
