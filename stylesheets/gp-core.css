@@ -357,7 +357,7 @@ footer p {
 }
 
 #listen {
-  background: #555;
+  background: #444;
   width: 790px;
   clear: both;
   padding: 70px 75px;
@@ -366,27 +366,41 @@ footer p {
 
 #listen li {
   float: left;
-  background: #ccc;
-  padding: 18px 22px;
-  border-radius: 3px;
 }
 
 #listen a {
+  text-indent: 52px;
   color: #fff;
+  display: block;
+  padding: 18px 22px;
+  width: 100%;
+  font-size: 16px;
 }
 
-#listen .lastepi {
-  width: 149px;
+.lastepi {
+  width: 193px;
   margin-right: 70px;
 }
 
-#listen .rss {
-  width: 171px;
+.lastepi a {
+  background: url('/images/play-button.png') no-repeat left top;
+}
+
+.rss {
+  width: 215px;
   margin-right: 70px;
 }
 
-#listen .itunes {
-  width: 195px;
+.rss a {
+  background: url('/images/rss-button.png') no-repeat left top;
+}
+
+.itunes {
+  width: 240px;
+}
+
+.itunes a {
+  background: url('/images/itunes-button.png') no-repeat left top;
 }
 
 #epi-list {
