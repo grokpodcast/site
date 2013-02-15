@@ -372,9 +372,14 @@ footer p {
   text-indent: 52px;
   color: #fff;
   display: block;
-  padding: 18px 22px;
-  width: 100%;
+  padding: 18px 0;
   font-size: 16px;
+  overflow: hidden;
+}
+
+#listen a span {
+  display: block;
+  text-align: center;
 }
 
 .lastepi {
@@ -404,11 +409,61 @@ footer p {
 }
 
 #epi-list {
+  margin-top: 25px;
+}
 
+#list-title {
+  width: 100%;
+  border-bottom: 1px #333 solid;
+  margin-bottom: 30px;
+}
+
+#epi-list h1 {
+  background: #fff;
+  padding: 4px 10px 4px 0;
+  font-weight: normal;
+  color: #888;
+  position: relative;
+  top: 10px;
+  width: 190px;
+}
+
+#epi-list ul {
+  overflow: hidden;
+  width: 940px;
 }
 
 #epi-list li {
   float: left;
   width: 270px;
   height: 330px;
+  margin-right: 35px;
+  margin-bottom: 50px;
+}
+
+#epi-list li h3 {
+  font-size: 13px;
+  text-transform: uppercase;
+  margin: 10px 0 0 0;
+  padding: 0;
+  border: 0;
+}
+
+#epi-list li h2 {
+  margin: 10px 0;
+  font-size: 18px;
+  line-height: 24px;
+  color: #555;
+}
+
+#epi-list .listen-epi {
+  width: 60px;
+  clear: both;
+  line-height: normal;
+  background: url("/images/listen-button.png") no-repeat;
+  color: #fff;
+  font-size: 16px;
+  margin: 0;
+  display: block;
+  padding: 13px 0px 13px 47px;
 }
