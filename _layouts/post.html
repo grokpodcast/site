@@ -1,87 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   {% include head.html %}
 </head>
+  <body>
+    {% include topbar.html %}
 
-<body>
-  <div id="topbar">
     <div class="holder">
 
-      <h1>
-        <a href="/">
-          Grok Podcast
-        </a>
-      </h1>
+      {% include header.html %}
 
-    </div>
-  </div> <!-- /topbar -->
+      <section id="post-infos">
 
-  <div class="holder">
+        <p id="serie-name">
+          A Linguagem Scala
+        </p>
 
-      <header>
+        <h2>Episódio 79 – A linguagem Scala – Parte 3 de 3.</h2>
 
-      <h1>
-        <a href="/">
-          Grok Podcast
-        </a>
-      </h1>
+      </section> <!-- /post-infos -->
 
-      <ul>
-        <li id="guy-01">
-          Rafael Rosa<br />
-          <a href="http://www.twitter.com/rafaelrosafu">
-            @rafaelrosafu
-          </a>
-        </li>
-        <li id="guy-02">
-          Carlos Brando<br />
-          <a href="http://www.twitter.com/carlosbrando">
-            @carlosbrando
-          </a>
-        </li>
-      </ul>
+      {{ content }}
+    </div> <!-- holder -->
 
-      </header> <!-- /header -->
-    
-    <nav id="navigation">
-
-      <ul id="nav-principal">
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Séries</a></li>
-        <li><a href="#">Apoios</a></li>
-      </ul>
-
-    </nav> <!-- /navigation -->
-    
-    <section id="post-infos">
-      
-      <p id="serie-name">
-        A Linguagem Scala
-      </p>
-
-      <h2>Episódio 79 – A linguagem Scala – Parte 3 de 3.</h2>
-    
-    </section> <!-- /post-infos -->
-    
-    {{ content }}
-  </div> <!-- holder -->
-
-  <footer>
-    <div class="holder">
-      
-      <p>
-        <strong>GrokPodcast</strong> é desenvolvido com <a href="http://wordpress.com/">Wordpress</a> e <a href="http://wordpress.org/extend/plugins/podpress/">Podpress</a>.<br />
-        O projeto é mantido com carinho por: <a id="footer-logo" href="#">HE:labs</a>
-      </p>
-
-    </div>
-  </footer> <!-- /footer -->
-  
+    {% include footer.html %}
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="stylesheets/gp.js" type="text/javascript" charset="utf-8"></script>
-
-</body>
-
+  </body>
 </html>
