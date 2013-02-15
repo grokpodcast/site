@@ -16,54 +16,23 @@ layout: default
       <h1>Conheça nossas séries</h1>
     </div>
     <ul>
-      <li>
+      {% for post in site.posts %}
+        <li>
+          <h2>
+            <a href="{{ post.url }}">
+            {{ post.title }}
+            </a>
+          </h2>
+        </li>
+      {% endfor %}
+      <!-- <li>
         <a href="#">
           <img src="http://placehold.it/270x178">
           <h3>Rails Core Team</h3>
           <h2>Episódio 80 - Brasileiros no Rails Core Team - Parte 1/3</h2>
           <p class="listen-epi">Ouvir</p>
         </a>
-      </li>
-      <li>
-        <a href="#">
-          <img src="http://placehold.it/270x178">
-          <h3>Rails Core Team</h3>
-          <h2>Episódio 80 - Brasileiros no Rails Core Team - Parte 1/3</h2>
-          <p class="listen-epi">Ouvir</p>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <img src="http://placehold.it/270x178">
-          <h3>Rails Core Team</h3>
-          <h2>Episódio 80 - Brasileiros no Rails Core Team - Parte 1/3</h2>
-          <p class="listen-epi">Ouvir</p>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <img src="http://placehold.it/270x178">
-          <h3>Rails Core Team</h3>
-          <h2>Episódio 80 - Brasileiros no Rails Core Team - Parte 1/3</h2>
-          <p class="listen-epi">Ouvir</p>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <img src="http://placehold.it/270x178">
-          <h3>Rails Core Team</h3>
-          <h2>Episódio 80 - Brasileiros no Rails Core Team - Parte 1/3</h2>
-          <p class="listen-epi">Ouvir</p>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <img src="http://placehold.it/270x178">
-          <h3>Rails Core Team</h3>
-          <h2>Episódio 80 - Brasileiros no Rails Core Team - Parte 1/3</h2>
-          <p class="listen-epi">Ouvir</p>
-        </a>
-      </li>
+      </li> -->
     </ul>
   </section>
 </section> <!-- /content -->
