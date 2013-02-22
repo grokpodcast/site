@@ -478,5 +478,21 @@ footer p {
   margin: 0 auto;
   background: #fff;
   border-bottom: 1px #ececec solid;
-  padding: 18px 0;
+  padding: 18px 0 10px 0;
+  font-size: 16px;
+}
+
+.duration {
+  padding: 5px 0 5px 35px;
+  width: 80px;
+  background: url("/images/time-ico.png") no-repeat left top;
+  display: inline-block;
+}
+
+.download-podcast {
+  padding: 5px 0 5px 35px;
+  width: 80px;
+  background: url("/images/download-ico.png") no-repeat left top;
+  display: inline-block;
+  color: #8c88fc;
 }
