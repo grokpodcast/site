@@ -1,0 +1,35 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>GrokPodcast</title>
+  <link type="application/atom+xml" rel="self" href="http://grokpodcast.com/atom.xml"/>
+  <link href="http://grokpodcast.com/"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>http://grokpodcast.com/</id>
+  <author>
+    <name>Rodrigo Pinto</name>
+    <email>rodrigopqn@gmail.com</email>
+  </author>
+
+  {% for post in site.posts %}
+  <entry>
+    <id>http://grokpodcast.com{{ post.id }}</id>
+    <link type="text/html" rel="alternate" href="http://grokpodcast.com{{ post.url }}"/>
+    <title>{{ post.title }}</title>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <authors>
+      <author>
+        <name>Carlos Brando</name>
+        <twitter>http://www.twitter.com/carlosbrando</twitter>
+      </author>
+      <author>
+        <name>Rafael Rosa</name>
+        <twitter>http://www.twitter.com/rafaelrosafu</twitter>
+      </author>
+    </authors>
+    <content type="html">{{ post.content | xml_escape }}</content>
+  </entry>
+  {% endfor %}
+</feed>
