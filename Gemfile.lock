@@ -25,6 +25,7 @@ GEM
     liquid (2.4.1)
     maruku (0.6.1)
       syntax (>= 1.0.0)
+    nokogiri (1.5.6)
     posix-spawn (0.3.6)
     rdiscount (1.6.8)
     sass (3.2.5)
@@ -37,4 +38,5 @@ DEPENDENCIES
   compass (= 0.12.2)
   hpricot (= 0.8.6)
   jekyll (= 0.11.2)
+  nokogiri
   rdiscount (= 1.6.8)
