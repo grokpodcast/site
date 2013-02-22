@@ -20,15 +20,16 @@
 
       </section> <!-- /post-infos -->
 
-      <section id="podcast-infos">
-        <div class="duration">
-
-        </div>
-
-        <a href="{{ page.podcast_file_url }}" title="Download">Download</a>
-      </section>
-
       <section id="content">
+
+        <section id="podcast-infos">
+          <div class="duration">
+            {{ page.duration }}
+          </div>
+
+          <a href="{{ page.podcast_file_url }}" title="Download">Download</a>
+        </section>
+
         <div id="entry">
           {{ content }}
         </div>

@@ -472,3 +472,11 @@ footer p {
   display: block;
   margin: 30px 0;
 }
+
+#podcast-infos {
+  width: 880px;
+  margin: 0 auto;
+  background: #fff;
+  border-bottom: 1px #ececec solid;
+  padding: 18px 0;
+}
