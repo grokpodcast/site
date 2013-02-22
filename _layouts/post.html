@@ -20,7 +20,15 @@
 
       </section> <!-- /post-infos -->
 
-      {{ content }}
+      <section id="content">
+        <div id="entry">
+          {{ content }}
+        </div>
+
+        <aside>
+          <img class="alignleft size-medium wp-image-305" src="{{ page.img_src }}" alt="{{ post.img_alt }}" title="{{ post.img_title }}" width="300" />
+        </aside>
+      </section>
     </div> <!-- holder -->
 
     {% include footer.html %}
