@@ -19,6 +19,7 @@ layout: default
       {% for post in site.posts %}
         <li>
           <h2>
+            <img src="{{ post.img_src }}" alt="{{ post.img_alt }}" title="{{ post.img_title }}" width="270" height="170" />
             <a href="{{ post.url }}">
             {{ post.title }}
             </a>
