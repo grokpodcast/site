@@ -459,7 +459,7 @@ footer p {
   margin-bottom: 30px;
 }
 
-#epi-list h1 {
+#epi-list h1, #list-title h1 {
   background: #fff;
   padding: 4px 10px 4px 0;
   font-weight: normal;
