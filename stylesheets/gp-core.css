@@ -356,6 +356,38 @@ footer p {
   opacity:.9;
 }
 
+#featured-episode {
+  position: relative;
+  width: 940px;
+  height: 301px;
+  clear: both;
+}
+
+#featured-episode h2,
+#featured-episode h3,
+#featured-episode img {
+  position: absolute;
+}
+
+#featured-episode img {
+  left: 0;
+  top: 0;
+}
+
+#featured-episode h2,
+#featured-episode h3 {
+  color: #FAFA1E;
+  bottom: 85px;
+  left: 35px;
+}
+
+#featured-episode h3 {
+  color: #fff;
+  border-bottom: 0;
+  font-size: 24px;
+  bottom: 20px;
+}
+
 #listen {
   background: #444;
   width: 790px;
