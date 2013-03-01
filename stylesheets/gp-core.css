@@ -651,3 +651,20 @@ footer p {
   float: left;
   margin-right: 30px;
 }
+
+#contact {}
+  
+#contact input,
+#contact textarea {
+  font-family: "Lucida Grande",Lucida,sans-serif;
+  border: 1px solid #717185;
+  display: block;
+  font-size: 18px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 400px;
+}
+
+#contact input[type="submit"] {
+  width: 200px;
+}
