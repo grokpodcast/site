@@ -23,7 +23,13 @@ layout: default
               </div>
               <h2>{{ post.serie }}</h2>
             </a>
-            </a>
+            {% for nested_post in site.posts %}
+              {% if nested_post.serie contains post.serie %}
+                <a href="{{ nested_post.url }}" title="{{ nested_post.title }}">
+                  <h2>{{ nested_post.title }}</h2>
+                </a>
+              {% endif %}
+            {% endfor %}
           </li>
         {% endif %}
       {% endfor %}
