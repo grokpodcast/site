@@ -222,6 +222,11 @@ header a:hover, footer a:hover {
   float:left;
 }
 
+.static #post-infos {
+  height: auto;
+  padding-bottom: 30px;
+}
+
 #serie-name {
   margin:27px 0 0 0;
   font:25px arial, sans-serif;
@@ -594,12 +599,24 @@ footer p {
   color: #8c88fc;
 }
 
-.support div {
+.support {
   margin-top: 20px;
 }
 
-.support div a {
+.support a {
   text-align: center;
   display: block;
   margin-bottom: 20px;
+}
+
+#about {
+}
+
+#about .content {
+  float: left;
+  width: 550px;
+}
+
+#about .image {
+  float: right;
 }
