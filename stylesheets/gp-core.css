@@ -593,3 +593,13 @@ footer p {
   display: inline-block;
   color: #8c88fc;
 }
+
+.support div {
+  margin-top: 20px;
+}
+
+.support div a {
+  text-align: center;
+  display: block;
+  margin-bottom: 20px;
+}
