@@ -1,15 +1,13 @@
 ---
 layout: default
 ---
-
 <nav id="listen">
   <ul>
-    <li class="lastepi"><a href="{{ site.posts.first.url }}"><span>Ouvir Ep. {{ site.posts | size | minus:2}}</span></a></li>
+    <li class="lastepi"><a href="{{ site.posts.first.url }}"><span>Ouvir Ep. {{ site.posts | size | minus:2 }}</span></a></li>
     <li class="rss"><a href="/atom.xml"><span>Assinar por RSS</span></a></li>
     <li class="itunes"><a href="http://itunes.apple.com/us/podcast/grok-podcast/id393122038"><span>Assinar por iTunes</span></a></li>
   </ul>
 </nav>
-
 <section id="content">
   <section id="epi-list">
     <div id="list-title">
@@ -17,17 +15,17 @@ layout: default
     </div>
     <ul>
       {% for post in site.posts %}
-        <li>
-          <a href="{{ post.url }}" title="{{ post.title }}">
-            <div class="post-image">
-              <img src="{{ post.img_src }}" alt="{{ post.img_alt }}" title="{{ post.img_title }}" />
-            </div>
-            <h3>{{ post.serie }}</h3>
-            <h2>{{ post.title }}</h2>
-            <p class="listen-epi">Ouvir</p>
+        {% if post.title contains 'Parte 1' %}
+          <li>
+            <a href="{{ post.url }}" title="{{ post.title }}">
+              <div class="post-image">
+                <img src="{{ post.img_src }}" alt="{{ post.img_alt }}" title="{{ post.img_title }}" />
+              </div>
+              <h2>{{ post.serie }}</h2>
             </a>
-          </a>
-        </li>
+            </a>
+          </li>
+        {% endif %}
       {% endfor %}
     </ul>
   </section>
