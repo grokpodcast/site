@@ -6,3 +6,6 @@ exclude: ['Rakefile', 'README', 'Gemfile', 'Gemfile.lock', 'config.rb']
 sass:
   syntax: scss        # scss|sass
   style:  compressed  # nested|expanded|compact|compressed
+
+featured:
+  title: Biohackers Brasileiros
