@@ -408,7 +408,7 @@ footer p {
   background: url('/images/itunes-button.png') no-repeat left top;
 }
 
-#epi-list {
+#epi-list, #series-list {
   margin-top: 25px;
 }
 
@@ -428,7 +428,7 @@ footer p {
   width: 190px;
 }
 
-#epi-list ul {
+#epi-list ul, #series-list ul {
   overflow: hidden;
   width: 940px;
 }
@@ -449,19 +449,19 @@ footer p {
   border: 0;
 }
 
-#epi-list li h2 {
+#epi-list li h2, #series-list li h2 {
   margin: 10px 0;
   font-size: 18px;
   line-height: 24px;
   color: #555;
 }
 
-#epi-list li img {
+#epi-list li img, #series-list li img {
   min-height: 180px;
   max-width: 270px;
 }
 
-#epi-list .post-image {
+#epi-list .post-image, #series-list .serie-image {
   overflow: hidden;
   height: 180px;
   text-align: center;
@@ -477,6 +477,41 @@ footer p {
   margin: 0;
   display: block;
   padding: 13px 0px 13px 47px;
+}
+
+#series-list li {
+  float: left;
+  width: 270px;
+  height: 230px;
+  margin-right: 35px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+#series-list li:hover .serie-posts {
+  display: block;
+}
+
+#series-list li a {
+  float: left;
+  display: block;
+}
+
+#series-list .serie-posts {
+  height: 140px;
+  width: 230px;
+  background: rgba(0,0,0,.5);
+  font-size: 13px;
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px;
+}
+
+#series-list .serie-posts a {
+  color: #fff;
+  font-size: 13px;
 }
 
 #podcast {

@@ -9,7 +9,7 @@ layout: default
   </ul>
 </nav>
 <section id="content">
-  <section id="epi-list">
+  <section id="series-list">
     <div id="list-title">
       <h1>Conheça nossas séries</h1>
     </div>
@@ -17,19 +17,21 @@ layout: default
       {% for post in site.posts %}
         {% if post.title contains 'Parte 1' %}
           <li>
-            <a href="{{ post.url }}" title="{{ post.title }}">
-              <div class="post-image">
+            <a href="#" title="{{ post.title }}">
+              <div class="serie-image">
                 <img src="{{ post.img_src }}" alt="{{ post.img_alt }}" title="{{ post.img_title }}" />
               </div>
               <h2>{{ post.serie }}</h2>
             </a>
-            {% for nested_post in site.posts %}
-              {% if nested_post.serie contains post.serie %}
-                <a href="{{ nested_post.url }}" title="{{ nested_post.title }}">
-                  <h2>{{ nested_post.title }}</h2>
-                </a>
-              {% endif %}
-            {% endfor %}
+            <div class="serie-posts">
+              {% for nested_post in site.posts reversed %}
+                {% if nested_post.serie contains post.serie %}
+                  <a href="{{ nested_post.url }}" title="{{ nested_post.title }}">
+                    {{ nested_post.title }}
+                  </a>
+                {% endif %}
+              {% endfor %}
+            </div>
           </li>
         {% endif %}
       {% endfor %}
