@@ -19,7 +19,9 @@ layout: default
       {% for post in site.posts %}
         <li>
           <a href="{{ post.url }}" title="{{ post.title }}">
-            <img src="{{ post.img_src }}" alt="{{ post.img_alt }}" title="{{ post.img_title }}" width="270" height="170" />
+            <div class="post-image">
+              <img src="{{ post.img_src }}" alt="{{ post.img_alt }}" title="{{ post.img_title }}" />
+            </div>
             <h3>{{ post.serie }}</h3>
             <h2>{{ post.title }}</h2>
             <p class="listen-epi">Ouvir</p>

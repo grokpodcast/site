@@ -456,6 +456,17 @@ footer p {
   color: #555;
 }
 
+#epi-list li img {
+  min-height: 180px;
+  max-width: 270px;
+}
+
+#epi-list .post-image {
+  overflow: hidden;
+  height: 180px;
+  text-align: center;
+}
+
 #epi-list .listen-epi {
   width: 60px;
   clear: both;
