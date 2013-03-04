@@ -156,7 +156,11 @@ header li:first-child {
   margin-left:0 !important;
 }
 
-header a, footer a {
+header .guy-profile {
+  color: #fff;
+}
+
+header .twitter-link, footer a {
   font-size:15px;
   color:#8c88fc;
 }
@@ -190,7 +194,6 @@ header a:hover, footer a:hover {
   height:60px;
   background:#7b7b90;
   padding:0 30px 0 30px;
-  border-bottom:1px solid #fff;
   float:left;
 }
 
@@ -401,15 +404,21 @@ footer p {
   background: #444;
   width: 790px;
   clear: both;
-  padding: 70px 75px;
+  padding: 15px 75px;
   overflow: hidden;
+}
+
+#listen ul {
+  width: 525px;
+  overflow: hidden;
+  margin: 0 auto;
 }
 
 #listen li {
   float: left;
 }
 
-#listen a {
+#listen a, .lastepi {
   text-indent: 52px;
   color: #fff;
   display: block;
@@ -418,18 +427,21 @@ footer p {
   overflow: hidden;
 }
 
-#listen a span {
+#listen a span, .lastepi span {
   display: block;
   text-align: center;
 }
 
 .lastepi {
   width: 193px;
-  margin-right: 70px;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  background: url('/images/play-button.png') no-repeat left top;
 }
 
-.lastepi a {
-  background: url('/images/play-button.png') no-repeat left top;
+.lastepi:hover {
+  color: #fff;
 }
 
 .rss {
@@ -659,7 +671,7 @@ footer p {
   width: 100%;
 }
 #contact {}
-  
+
 #contact input,
 #contact textarea {
   font-family: "Lucida Grande",Lucida,sans-serif;
@@ -673,4 +685,14 @@ footer p {
 
 #contact input[type="submit"] {
   width: 200px;
+}
+
+#navigation #search {
+  float: right;
+  margin-right: 0;
+}
+
+#navigation #search input {
+  padding: 5px 10px;
+  font-size: 14px;
 }
