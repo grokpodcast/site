@@ -4,13 +4,13 @@ title: Página inicial
 ---
 <section id="featured-episode">
   <img src="/images/featured-episode.jpg" alt="{{ site.featured.title }}" title="{{ site.featured.title }}" />
-  <a href="{{ site.posts.first.url }}" class="lastepi"><span>Ouvir Ep. {{ site.posts | size | minus:2 }}</span></a>
+  <a href="{{ site.posts.first.url }}" class="lastepi" title="Ouça o último episódio"><span>Ouvir Ep. {{ site.posts | size | minus:2 }}</span></a>
 </section>
 
 <nav id="listen">
   <ul>
-    <li class="rss"><a href="/atom.xml"><span>Assinar por RSS</span></a></li>
-    <li class="itunes"><a href="http://itunes.apple.com/us/podcast/grok-podcast/id393122038"><span>Assinar por iTunes</span></a></li>
+    <li class="rss"><a href="/atom.xml" rel="external" title="RSS"><span>Assinar por RSS</span></a></li>
+    <li class="itunes"><a href="http://itunes.apple.com/us/podcast/grok-podcast/id393122038" title="iTunes" rel="external"><span>Assinar por iTunes</span></a></li>
   </ul>
 </nav>
 <section id="content">
