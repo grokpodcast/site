@@ -14,22 +14,18 @@ layout: nil
   </author>
 
   {% for post in site.posts %}
-  <entry>
-    <id>http://grokpodcast.com{{ post.id }}</id>
-    <link type="text/html" rel="alternate" href="http://grokpodcast.com{{ post.url }}"/>
-    <title>{{ post.title }}</title>
-    <updated>{{ post.date | date_to_xmlschema }}</updated>
-    <authors>
+    <entry>
+      <id>http://grokpodcast.com{{ post.id }}</id>
+      <link type="text/html" rel="alternate" href="http://grokpodcast.com{{ post.url }}"/>
+      <title>{{ post.title }}</title>
+      <updated>{{ post.date | date_to_xmlschema }}</updated>
       <author>
         <name>Carlos Brando</name>
-        <twitter>http://www.twitter.com/carlosbrando</twitter>
       </author>
       <author>
         <name>Rafael Rosa</name>
-        <twitter>http://www.twitter.com/rafaelrosafu</twitter>
       </author>
-    </authors>
-    <content type="html">{{ post.content | xml_escape }}</content>
-  </entry>
+      <content type="html">{{ post.content | xml_escape }}</content>
+    </entry>
   {% endfor %}
 </feed>
