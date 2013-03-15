@@ -25,7 +25,7 @@ layout: nil
       <author>
         <name>Rafael Rosa</name>
       </author>
-      <content type="html">{{ post.content | xml_escape }}</content>
+      <content type="html">{{ post.content | html_escape | xml_escape }}</content>
     </entry>
   {% endfor %}
 </feed>
