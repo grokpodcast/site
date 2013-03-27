@@ -1,3 +1,4 @@
+base_url: "http://new.grokpodcast.com"
 server:     true
 auto:       true
 permalink:  pretty
