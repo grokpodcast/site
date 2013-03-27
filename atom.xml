@@ -10,32 +10,56 @@ layout: nil
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
   xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
   xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-  xmlns:media="http://search.yahoo.com/mrss/"
->
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <title>GrokPodcast</title>
-  <link type="application/atom+xml" rel="self" href="http://grokpodcast.com/atom.xml"/>
-  <link href="http://grokpodcast.com/"/>
-  <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>http://grokpodcast.com/</id>
-  <author>
-    <name>Rodrigo Pinto</name>
-    <email>rodrigopqn@gmail.com</email>
-  </author>
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Grok Podcast</title>
+    <atom:link href="{{site.base_url}}/atom.xml" rel="self" type="application/rss+xml" />
+    <link>{{site.base_url}}</link>
+    <description>Um podcast feito para programadores e empreendedores.</description>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <language>pt-BR</language>
+    <copyright>Copyright © Grok Podcast 2010 - 2013</copyright>
+    <managingEditor>eduardobrando@gmail.com (Grok Podcast)</managingEditor>
+    <webMaster>eduardobrando@gmail.com (Grok Podcast)</webMaster>
 
-  {% for post in site.posts %}
-    <entry>
-      <id>http://grokpodcast.com{{ post.id }}</id>
-      <link type="text/html" rel="alternate" href="http://grokpodcast.com{{ post.url }}"/>
-      <title>{{ post.title }}</title>
-      <updated>{{ post.date | date_to_xmlschema }}</updated>
-      <author>
-        <name>Carlos Brando</name>
-      </author>
-      <author>
-        <name>Rafael Rosa</name>
-      </author>
-      <content type="html">{{ post.content | html_escape | xml_escape }}</content>
-    </entry>
-  {% endfor %}
-</feed>
+    <itunes:new-feed-url>{{site.base_url}}/atom.xml</itunes:new-feed-url>
+    <itunes:subtitle></itunes:subtitle>
+    <itunes:summary>Um podcast feito para programadores e empreendedores.</itunes:summary>
+    <itunes:keywords></itunes:keywords>
+    <itunes:category text="Technology">
+      <itunes:category text="Podcasting" />
+    </itunes:category>
+    <itunes:category text="Business">
+      <itunes:category text="Careers" />
+    </itunes:category>
+    <itunes:category text="Technology" />
+    <itunes:author>Carlos Brando / Rafael Rosa</itunes:author>
+    <itunes:owner>
+      <itunes:name>Carlos Brando / Rafael Rosa</itunes:name>
+      <itunes:email>eduardobrando@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:block>no</itunes:block>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="{{site.base_url}}/images/logo_itunes_grande.jpg" />
+
+    {% for post in site.posts %}
+      <item>
+        <link>{{site.base_url}}{{ post.url }}</link>
+        <title>{{ post.title }}</title>
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <description>{{'<![CDATA['}}{{ post.content }}{{']]>'}}</description>
+
+        <enclosure url="{{ post.podcast_file_url }}" length="1" type="audio/mpeg" />
+        <guid>{{ post.podcast_file_url | xml_escape }}</guid>
+
+        <itunes:author>Carlos Brando / Rafael Rosa</itunes:author>
+        <itunes:summary>{{ post.content | split:/<!--more-->/ | first | strip_html | xml_escape }}</itunes:summary>
+        <itunes:image href="{{ site.base_url }}{{post.img_src }}" />
+        <itunes:duration>{{ post.duration }}</itunes:duration>
+        <itunes:keywords>{{ post.tags | join:', ' }}</itunes:keywords>
+      </item>
+    {% endfor %}
+  </channel>
+</rss>
