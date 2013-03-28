@@ -38,6 +38,7 @@ GEM
     pygments.rb (0.3.7)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
+    rake (10.0.4)
     rdiscount (1.6.8)
     safe_yaml (0.7.1)
     sass (3.2.5)
@@ -52,4 +53,5 @@ DEPENDENCIES
   hpricot (= 0.8.6)
   jekyll!
   nokogiri
+  rake
   rdiscount (= 1.6.8)
