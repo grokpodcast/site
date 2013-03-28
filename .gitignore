@@ -3,3 +3,5 @@ _site*
 series.rb
 Vagrantfile
 .vagrant/
+.bundle/
+bin/
