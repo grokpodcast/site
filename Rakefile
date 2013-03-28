@@ -5,6 +5,8 @@ require 'tmpdir'
 
 GITHUB_REPONAME = "grokpodcast/grokpodcast.github.com"
 
+task :default => ["site:generate"]
+
 namespace :site do
   desc "Generate blog files"
   task :generate do
