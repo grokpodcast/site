@@ -3,7 +3,7 @@
 require 'jekyll'
 require 'tmpdir'
 
-GITHUB_REPONAME = "grokpodcast/grokpodcast.github.com"
+GITHUB_REPONAME = "grokpodcast/site"
 
 task :default => ["site:generate"]
 
