@@ -23,6 +23,7 @@ namespace :site do
       cp_r "_site/.", tmp
       Dir.chdir tmp
       system "git init"
+      touch ".nojekyll"
       system "git add ."
       message = "Site updated at #{Time.now.utc}"
       system "git commit -m #{message.shellescape}"
