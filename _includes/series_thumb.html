@@ -5,11 +5,11 @@
               <h2>{{ post.serie }}</h2>
             </a>
             <div class="serie-posts">
-              <span>Partes</span>
+              <span>Episódios</span>
               {% for nested_post in site.posts reversed %}
                 {% if nested_post.serie contains post.serie %}
                   <a href="{{ nested_post.url }}" title="{{ nested_post.title }}">
-                    {{ nested_post.part }}
+                    {{ nested_post.episode }}
                   </a>
                 {% endif %}
               {% endfor %}

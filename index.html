@@ -20,7 +20,7 @@ title: Página inicial
     </div>
     <ul>
       {% for post in site.posts %}
-        {% if post.section != 'extra' and post.part == 1 %}
+        {% if post.section != 'extra' and post.episode == 1 %}
           <li>
             {% include series_thumb.html %}
           </li>
