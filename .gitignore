@@ -5,3 +5,4 @@ Vagrantfile
 .vagrant/
 .bundle/
 bin/
+.rvmrc
