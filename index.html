@@ -20,7 +20,7 @@ title: Página inicial
     </div>
     <ul>
       {% for post in site.posts %}
-        {% if post.title contains 'Parte 1' %}
+        {% if post.part == 1 %}
           <li>
             <a href="#" title="{{ post.title }}">
               <div class="serie-image">
