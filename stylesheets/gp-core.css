@@ -463,17 +463,17 @@ footer p {
   background: url('/images/itunes-button.png') no-repeat left top;
 }
 
-#epi-list, #series-list {
+#epi-list, .series-list {
   margin-top: 25px;
 }
 
-#list-title {
+.list-title {
   width: 100%;
   border-bottom: 1px #333 solid;
   margin-bottom: 30px;
 }
 
-#epi-list h1, #list-title h1 {
+#epi-list h1, .list-title h1 {
   background: #fff;
   padding: 4px 10px 4px 0;
   font-weight: normal;
@@ -483,7 +483,7 @@ footer p {
   width: 190px;
 }
 
-#epi-list ul, #series-list ul {
+#epi-list ul, .series-list ul {
   overflow: hidden;
   width: 940px;
 }
@@ -511,19 +511,19 @@ footer p {
   border: 0;
 }
 
-#epi-list li h2, #series-list li h2 {
+#epi-list li h2, .series-list li h2 {
   margin: 10px 0;
   font-size: 18px;
   line-height: 24px;
   color: #555;
 }
 
-#epi-list li img, #series-list li img {
+#epi-list li img, .series-list li img {
   min-height: 180px;
   max-width: 270px;
 }
 
-#epi-list .post-image, #series-list .serie-image {
+#epi-list .post-image, .series-list .serie-image {
   overflow: hidden;
   height: 180px;
   text-align: center;
@@ -541,7 +541,7 @@ footer p {
   padding: 13px 0px 13px 47px;
 }
 
-#series-list li {
+.series-list li {
   float: left;
   width: 270px;
   height: 230px;
@@ -550,16 +550,16 @@ footer p {
   position: relative;
 }
 
-#series-list li:hover .serie-posts {
+.series-list li:hover .serie-posts {
   display: block;
 }
 
-#series-list li a {
+.series-list li a {
   float: left;
   display: block;
 }
 
-#series-list .serie-posts {
+.series-list .serie-posts {
   height: 150px;
   width: 250px;
   background: rgba(0,0,0,.5);
@@ -579,7 +579,7 @@ footer p {
   margin-bottom: 8px;
 }
 
-#series-list .serie-posts a {
+.series-list .serie-posts a {
   background: #7B7B90;
   color: #fff;
   display: block;
@@ -591,7 +591,7 @@ footer p {
   margin-bottom: 10px;
 }
 
-#series-list .serie-posts a:hover {
+.series-list .serie-posts a:hover {
   background: #FFCA00;
 }
 

@@ -123,15 +123,15 @@ aside img {
     float: none;
   }
 
-  #series-list {
+  .series-list {
     margin-top: 10px;
   }
 
-  #series-list ul {
+  .series-list ul {
     width: auto;
   }
 
-  #series-list li {
+  .series-list li {
     float: none;
     margin: 0 auto 50px auto;
   }

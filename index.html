@@ -14,16 +14,29 @@ title: Página inicial
   </ul>
 </nav>
 <section id="content">
-  <section id="series-list">
-    <div id="list-title">
+  <section id="regular-series" class="series-list">
+    <div class="list-title">
       <h1>Conheça nossas séries</h1>
     </div>
     <ul>
       {% for post in site.posts %}
-        {% if post.part == 1 %}
+        {% if post.section != 'extra' and post.part == 1 %}
           <li>
             {% include series_thumb.html %}
-            {% include episodes_overlay.html %}
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </section>
+  <section id="extra-episodes" class="series-list">
+    <div class="list-title">
+      <h1>Episódios extras</h1>
+    </div>
+    <ul>
+      {% for post in site.posts %}
+        {% if post.section == 'extra' %}
+          <li>
+            {% include series_thumb.html %}
           </li>
         {% endif %}
       {% endfor %}
