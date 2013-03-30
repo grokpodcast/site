@@ -1,0 +1,5 @@
+{% for note_hash in page.footnotes %}
+  {% for note in note_hash %}
+<h6><a href="{{note[0]}}" target="_blank">{{ note[1] }}</a></h6>
+  {% endfor %}
+{% endfor %}

@@ -1,0 +1,8 @@
+<h3>Shownotes:</h3>
+<ul>
+  {% for note_hash in page.shownotes %}
+    {% for note in note_hash %}
+      <li><a href="{{note[0]}}" target="_blank">{{ note[1] }}</a></li>
+    {% endfor %}
+  {% endfor %}
+</ul>
