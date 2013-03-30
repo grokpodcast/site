@@ -42,7 +42,7 @@ layout: nil
     </itunes:owner>
     <itunes:block>no</itunes:block>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="{{site.base_url}}/images/logo_itunes_grande.jpg" />
+    <itunes:image href="{{site.base_url}}/images/logo_itunes_grande.png" />
 
     {% for post in site.posts %}
       <item>
