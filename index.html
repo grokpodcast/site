@@ -22,22 +22,8 @@ title: Página inicial
       {% for post in site.posts %}
         {% if post.part == 1 %}
           <li>
-            <a href="#" title="{{ post.title }}">
-              <div class="serie-image">
-                <img src="{{ post.img_src }}" alt="{{ post.img_alt }}" title="{{ post.img_title }}" />
-              </div>
-              <h2>{{ post.serie }}</h2>
-            </a>
-            <div class="serie-posts">
-              <span>Partes</span>
-              {% for nested_post in site.posts reversed %}
-                {% if nested_post.serie contains post.serie %}
-                  <a href="{{ nested_post.url }}" title="{{ nested_post.title }}">
-                    {{ nested_post.part }}
-                  </a>
-                {% endif %}
-              {% endfor %}
-            </div>
+            {% include series_thumb.html %}
+            {% include episodes_overlay.html %}
           </li>
         {% endif %}
       {% endfor %}
