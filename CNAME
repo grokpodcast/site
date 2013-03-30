@@ -1,1 +1,3 @@
-new.grokpodcast.com
+---
+---
+{{ site.base_url | split:"//" | last }}
