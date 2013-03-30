@@ -1,0 +1,10 @@
+        <a href="{{ post.url }}" title="{{ post.title }}">
+          <div class="post-image">
+            <img src="{{ post.img_src }}" alt="{{ post.img_alt }}" title="{{ post.img_title }}" />
+          </div>
+          <span>{{ post.date | date: "%d/%m/%Y" }}</span>
+          <h3>{{ post.serie }}</h3>
+          <h2>{{ post.title }}</h2>
+          <p class="listen-epi">Ouvir</p>
+          </a>
+        </a>

@@ -16,7 +16,6 @@ namespace :site do
     })).process
   end
 
-
   desc "Generate and publish blog to gh-pages"
   task :publish => [:generate] do
     Dir.mktmpdir do |tmp|

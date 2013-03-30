@@ -463,7 +463,7 @@ footer p {
   background: url('/images/itunes-button.png') no-repeat left top;
 }
 
-#epi-list, .series-list {
+.epi-list, .series-list {
   margin-top: 25px;
 }
 
@@ -473,7 +473,7 @@ footer p {
   margin-bottom: 30px;
 }
 
-#epi-list h1, .list-title h1 {
+.epi-list h1, .list-title h1 {
   background: #fff;
   padding: 4px 10px 4px 0;
   font-weight: normal;
@@ -483,12 +483,12 @@ footer p {
   width: 190px;
 }
 
-#epi-list ul, .series-list ul {
+.epi-list ul, .series-list ul {
   overflow: hidden;
   width: 940px;
 }
 
-#epi-list li {
+.epi-list li {
   float: left;
   width: 270px;
   height: 360px;
@@ -496,14 +496,14 @@ footer p {
   margin-bottom: 50px;
 }
 
-#epi-list li span {
+.epi-list li span {
   font-size: 12px;
   color: #787878;
   display: block;
   margin-top: 5px;
 }
 
-#epi-list li h3 {
+.epi-list li h3 {
   font-size: 13px;
   text-transform: uppercase;
   margin: 5px 0 0 0;
@@ -511,25 +511,25 @@ footer p {
   border: 0;
 }
 
-#epi-list li h2, .series-list li h2 {
+.epi-list li h2, .series-list li h2 {
   margin: 10px 0;
   font-size: 18px;
   line-height: 24px;
   color: #555;
 }
 
-#epi-list li img, .series-list li img {
+.epi-list li img, .series-list li img {
   min-height: 180px;
   max-width: 270px;
 }
 
-#epi-list .post-image, .series-list .serie-image {
+.epi-list .post-image, .series-list .serie-image {
   overflow: hidden;
   height: 180px;
   text-align: center;
 }
 
-#epi-list .listen-epi {
+.epi-list .listen-epi {
   width: 60px;
   clear: both;
   line-height: normal;

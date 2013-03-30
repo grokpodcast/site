@@ -28,7 +28,7 @@ title: Página inicial
       {% endfor %}
     </ul>
   </section>
-  <section id="extra-episodes" class="series-list">
+  <section id="extra-episodes" class="epi-list">
     <div class="list-title">
       <h1>Episódios extras</h1>
     </div>
@@ -36,7 +36,7 @@ title: Página inicial
       {% for post in site.posts %}
         {% if post.section == 'extra' %}
           <li>
-            {% include series_thumb.html %}
+            {% include single_episode.html %}
           </li>
         {% endif %}
       {% endfor %}
