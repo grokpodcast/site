@@ -3,7 +3,7 @@ layout: post
 serie: 'Steve Jobs'
 title: Episódio 55 – Steve Jobs – Parte 2 de 2
 part: '2'
-podcast_file_url: 'http://s3.amazonaws.com/grokpodcast/grokpodcast-55-stevejobs.mp3'
+podcast_file_name: 'grokpodcast-55-stevejobs.mp3'
 duration: '50:45'
 img_src: '/images/2011/12/apple2.jpg'
 img_alt: ''
@@ -28,7 +28,7 @@ Encerramos nossa conversa/papo de bar sobre a biografia de <strong>Steve Jobs</s
 
 <div id="podcast">
   <audio controls>
-    <source src="{{ page.podcast_file_url }}" type="audio/mpeg">
+    <source src="{{ site.podcast_file_storage }}{{ page.podcast_file_name }}" type="audio/mpeg">
     Seu browser não suporta a tag de audio HTML5
   </audio>
 </div>

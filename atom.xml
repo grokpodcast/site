@@ -51,8 +51,8 @@ layout: nil
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <description>{{'<![CDATA['}}{{ post.content }}{{']]>'}}</description>
 
-        <enclosure url="{{ post.podcast_file_url }}" length="1" type="audio/mpeg" />
-        <guid>{{ post.podcast_file_url | xml_escape }}</guid>
+        <enclosure url="{{ site.podcast_file_storage }}{{ post.podcast_file_name }}" length="1" type="audio/mpeg" />
+        <guid>{{ site.podcast_file_storage | xml_escape }}{{ post.podcast_file_name | xml_escape }}</guid>
 
         <itunes:author>Carlos Brando / Rafael Rosa</itunes:author>
         <itunes:summary>{{ post.content | split:/<!--more-->/ | first | strip_html | xml_escape }}</itunes:summary>

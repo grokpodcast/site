@@ -3,7 +3,7 @@ layout: post
 serie: 'Os bastidores do Rails 3'
 title: Episódio 5 - Os bastidores do Rails 3 – Parte 3
 part: '3'
-podcast_file_url: 'http://s3.amazonaws.com/grokpodcast/grokpodcast-5-rails3.mp3'
+podcast_file_name: 'grokpodcast-5-rails3.mp3'
 duration: '13:13'
 img_src: '/images/2010/10/rails3_blackboard.jpg'
 img_alt: ''
@@ -31,7 +31,7 @@ Esse é o último episódio da nossa conversa com <a href="http://twitter.com/jo
 
 <div id="podcast">
   <audio controls>
-    <source src="{{ page.podcast_file_url }}" type="audio/mpeg">
+    <source src="{{ site.podcast_file_storage }}{{ page.podcast_file_name }}" type="audio/mpeg">
     Seu browser não suporta a tag de audio HTML5
   </audio>
 </div>

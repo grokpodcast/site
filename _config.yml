@@ -1,4 +1,5 @@
 base_url: "http://new.grokpodcast.com"
+podcast_file_storage: "http://s3.amazonaws.com/grokpodcast/"
 server:     true
 auto:       true
 permalink:  pretty

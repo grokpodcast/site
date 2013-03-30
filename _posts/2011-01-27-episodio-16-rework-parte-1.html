@@ -3,7 +3,7 @@ layout: post
 serie: 'Rework'
 title: Episódio 16 - Rework - Parte 1
 part: '1'
-podcast_file_url: 'http://s3.amazonaws.com/grokpodcast/grokpodcast-16-rework.mp3'
+podcast_file_name: 'grokpodcast-16-rework.mp3'
 duration: '46:12'
 img_src: '/images/2011/01/4422019243_a32ca74475_o.jpg'
 img_alt: ''
@@ -29,7 +29,7 @@ Depois de uma pausa para as férias de fim de ano, retomamos o Grok Podcast com 
 
 <div id="podcast">
   <audio controls>
-    <source src="{{ page.podcast_file_url }}" type="audio/mpeg">
+    <source src="{{ site.podcast_file_storage }}{{ page.podcast_file_name }}" type="audio/mpeg">
     Seu browser não suporta a tag de audio HTML5
   </audio>
 </div>

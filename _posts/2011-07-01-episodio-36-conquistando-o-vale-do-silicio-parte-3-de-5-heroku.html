@@ -3,7 +3,7 @@ layout: post
 serie: 'Conquistando o Vale do Silício'
 title: Episódio 36 – Conquistando o Vale do Silício – Parte 3 de 5 (Heroku)
 part: '3'
-podcast_file_url: 'http://s3.amazonaws.com/grokpodcast/grokpodcast-36-siliconvalley.mp3'
+podcast_file_name: 'grokpodcast-36-siliconvalley.mp3'
 duration: '15:15'
 img_src: '/images/2011/07/3517796016_04dc81b47a_o-300x199.jpg'
 img_alt: ''
@@ -28,7 +28,7 @@ Esse é o terceiro episódio da série onde entrevistamos três estrangeiros (2 
 
 <div id="podcast">
   <audio controls>
-    <source src="{{ page.podcast_file_url }}" type="audio/mpeg">
+    <source src="{{ site.podcast_file_storage }}{{ page.podcast_file_name }}" type="audio/mpeg">
     Seu browser não suporta a tag de audio HTML5
   </audio>
 </div>

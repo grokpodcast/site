@@ -3,7 +3,7 @@ layout: post
 serie: 'Paypal'
 title: Episódio 2 - Paypal - A maturidade - Parte 2
 part: '2'
-podcast_file_url: 'http://s3.amazonaws.com/grokpodcast/grokpodcast-2-paypal.mp3'
+podcast_file_name: 'grokpodcast-2-paypal.mp3'
 duration: '21:04'
 img_src: '/images/2010/09/peter_thiel-e1285167797531.jpg'
 img_alt: ''
@@ -33,7 +33,7 @@ meta:
 
 <div id="podcast">
   <audio controls>
-    <source src="{{ page.podcast_file_url }}" type="audio/mpeg">
+    <source src="{{ site.podcast_file_storage }}{{ page.podcast_file_name }}" type="audio/mpeg">
     Seu browser não suporta a tag de audio HTML5
   </audio>
 </div>

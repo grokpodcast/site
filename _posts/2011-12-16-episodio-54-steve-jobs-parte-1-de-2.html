@@ -3,7 +3,7 @@ layout: post
 serie: 'Steve Jobs'
 title: Episódio 54 – Steve Jobs – Parte 1 de 2
 part: '1'
-podcast_file_url: 'http://s3.amazonaws.com/grokpodcast/grokpodcast-54-stevejobs.mp3'
+podcast_file_name: 'grokpodcast-54-stevejobs.mp3'
 duration: '17:16'
 img_src: '/images/2011/12/steve_jobs.jpg'
 img_alt: ''
@@ -28,7 +28,7 @@ Hoje conversamos sobre umas das figuras mais marcantes e polêmicas do mundo da 
 
 <div id="podcast">
   <audio controls>
-    <source src="{{ page.podcast_file_url }}" type="audio/mpeg">
+    <source src="{{ site.podcast_file_storage }}{{ page.podcast_file_name }}" type="audio/mpeg">
     Seu browser não suporta a tag de audio HTML5
   </audio>
 </div>

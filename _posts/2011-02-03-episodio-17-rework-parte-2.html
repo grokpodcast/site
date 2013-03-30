@@ -3,7 +3,7 @@ layout: post
 serie: 'Rework'
 title: Episódio 17 - Rework - Parte 2
 part: '2'
-podcast_file_url: 'http://s3.amazonaws.com/grokpodcast/grokpodcast-17-rework.mp3'
+podcast_file_name: 'grokpodcast-17-rework.mp3'
 duration: '62:55'
 img_src: '/images/2011/02/rework_donkey.jpg'
 img_alt: ''
@@ -30,7 +30,7 @@ E voltamos para continuar conversando sobre o livro <a href="http://37signals.co
 
 <div id="podcast">
   <audio controls>
-    <source src="{{ page.podcast_file_url }}" type="audio/mpeg">
+    <source src="{{ site.podcast_file_storage }}{{ page.podcast_file_name }}" type="audio/mpeg">
     Seu browser não suporta a tag de audio HTML5
   </audio>
 </div>
