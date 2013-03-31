@@ -244,13 +244,6 @@ header a:hover, footer a:hover {
   color:#c9c9c9;
 }
 
-#post-infos h3 {
-  font:12px arial, sans-serif;
-  margin:5px 0 0 0;
-  color:#c9c9c9;
-  border: none;
-}
-
 /* Content */
 
 #content {
@@ -613,6 +606,10 @@ footer p {
   border-bottom: 1px #ececec solid;
   padding: 18px 0 10px 0;
   font-size: 16px;
+}
+
+#podcast-infos #published_on {
+  margin-left: 20px;
 }
 
 .duration {

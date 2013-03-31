@@ -17,7 +17,6 @@
         </p>
 
         <h2>{{ page.title }}</h2>
-        <h3>Publicado em {{ page.date | date: "%d/%m/%Y" }}</h3>
 
       </section> <!-- /post-infos -->
 
@@ -29,6 +28,8 @@
           </div>
 
           <a href="{{ site.podcast_file_storage }}{{ page.podcast_file_name }}" title="Download" class="download-podcast">Download</a>
+
+          <span id="published_on">Publicado em {{ page.date | date: "%d/%m/%Y" }}</span>
         </section>
 
         <div id="entry">
