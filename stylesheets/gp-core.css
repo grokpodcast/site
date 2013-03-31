@@ -650,7 +650,7 @@ footer p {
 
 #about .image {
   float: right;
-  margin-top: -40px;
+  margin-top: 1px;
 }
 
 #profile {
