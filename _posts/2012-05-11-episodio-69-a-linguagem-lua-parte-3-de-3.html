@@ -23,6 +23,15 @@ meta:
   _podPressPostSpecific: a:6:{s:15:"itunes:subtitle";s:15:"##PostExcerpt##";s:14:"itunes:summary";s:15:"##PostExcerpt##";s:15:"itunes:keywords";s:17:"##WordPressCats##";s:13:"itunes:author";s:10:"##Global##";s:15:"itunes:explicit";s:7:"Default";s:12:"itunes:block";s:7:"Default";}
   _podPressMedia: a:1:{i:0;a:10:{s:3:"URI";s:58:"http://s3.amazonaws.com/grokpodcast/grokpodcast-69-lua.mp3";s:5:"title";s:49:"Episódio
     69 – A linguagem Lua – Parte 3 de 3";s:4:"type";s:9:"audio_mp3";s:4:"size";s:8:"26982867";s:8:"duration";s:5:"28:01";s:12:"previewImage";s:77:"http://grokpodcast.com/wp-content/plugins/podpress/images/vpreview_center.png";s:10:"dimensionW";s:1:"0";s:10:"dimensionH";s:1:"0";s:3:"rss";s:2:"on";s:4:"atom";s:2:"on";}}
+
+sponsored_links:
+  - "http://blog.bluesoft.com.br": "Bluesoft"
+  - "http://www.sextante.com.br": "Editora Sextante"
+
+shownotes:
+  - "http://www.lua.org": "Lua - Site oficial"
+  - "http://en.wikipedia.org/wiki/Lua_(programming_language)": "Lua na Wikipedia"
+  - "http://books.google.com.br/books/about/Programming_In_Lua.html?hl=pt-BR&amp;id=ZV5hXZ8QPKIC": "Informa&ccedil;&otilde;es sobre o livro Programming Lua"
 ---
 Chegamos ao final de nossa conversa com <a href="http://www.inf.puc-rio.br/~roberto/" target="_blank">Roberto Ierusalimschy</a>, um dos criadores e mantenedores do Lua, linguagem brasileira criada dentro da PUC do Rio de Janeiro. Nesse epis&oacute;dio vamos nos aprofundar na linguagem, entender as origens de algumas de suas features e entender um pouco melhor como ela &eacute; implementada. Groke e divirta-se conosco.
 
@@ -34,22 +43,4 @@ E os ganhadores da nossa promo&ccedil;&atilde;o com <a href="http://www.esextant
 </ul>
 Parab&eacute;ns!! E muito obrigado a todos que participaram da promo&ccedil;&atilde;o, fiquem ligados no Grok para participar das pr&oacute;ximas.
 
-<div id="podcast">
-  <audio controls>
-    <source src="{{ site.podcast_file_storage }}{{ page.podcast_file_name }}" type="audio/mpeg">
-    Seu browser não suporta a tag de audio HTML5
-  </audio>
-</div>
-
-Voc&ecirc; pode adicionar o podcast ao seu iTunes&nbsp;<a href="http://itunes.apple.com/us/podcast/grok-podcast/id393122038" target="_blank">clicando aqui</a>&nbsp;ou atr&aacute;ves do nosso&nbsp;<a href="http://grokpodcast.com/feed/" target="_blank">RSS</a>. Tamb&eacute;m fique por dentro das novidades nos seguindo no twitter&nbsp;<a href="http://twitter.com/GrokPodcast" target="_blank">@grokpodcast</a>,&nbsp;<a href="http://twitter.com/#!/carlosbrando" target="_blank">@carlosbrando</a>&nbsp;e&nbsp;<a href="http://twitter.com/#!/rafaelrosafu" target="_blank">@rafaelrosafu</a>.
-<h3>Links patrocinados:</h3>
-<ul>
-	<li><a href="http://blog.bluesoft.com.br" target="_blank">Bluesoft</a></li>
-	<li><a href="http://www.sextante.com.br" target="_blank">Editora Sextante</a></li>
-</ul>
-<h3>Shownotes:</h3>
-<ul>
-	<li><a href="http://www.lua.org" target="_blank">Lua</a> - Site oficial</li>
-	<li><a href="http://en.wikipedia.org/wiki/Lua_(programming_language)" target="_blank">Lua</a> na Wikipedia</li>
-	<li><a href="http://books.google.com.br/books/about/Programming_In_Lua.html?hl=pt-BR&amp;id=ZV5hXZ8QPKIC" target="_blank">Informa&ccedil;&otilde;es sobre o livro Programming Lua</a></li>
-</ul>
+{% include default_post_content.html %}

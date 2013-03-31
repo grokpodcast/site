@@ -26,34 +26,28 @@ meta:
   _podPressPostSpecific: a:6:{s:15:"itunes:subtitle";s:15:"##PostExcerpt##";s:14:"itunes:summary";s:15:"##PostExcerpt##";s:15:"itunes:keywords";s:17:"##WordPressCats##";s:13:"itunes:author";s:10:"##Global##";s:15:"itunes:explicit";s:7:"Default";s:12:"itunes:block";s:7:"Default";}
   _podPressMedia: a:1:{i:0;a:10:{s:3:"URI";s:61:"http://s3.amazonaws.com/grokpodcast/grokpodcast-21-nodejs.mp3";s:5:"title";s:32:"Episódio
     21 - Node.js - Parte 3";s:4:"type";s:9:"audio_mp3";s:4:"size";s:8:"27841163";s:8:"duration";s:5:"28:56";s:12:"previewImage";s:77:"http://grokpodcast.com/wp-content/plugins/podpress/images/vpreview_center.png";s:10:"dimensionW";s:1:"0";s:10:"dimensionH";s:1:"0";s:3:"rss";s:2:"on";s:4:"atom";s:2:"on";}}
+
+shownotes:
+  - "http://nodejs.org/": "Node.js - site oficial"
+  - "http://en.wikipedia.org/wiki/Nodejs": "Node.js na Wikipedia"
+  - "http://peepcode.com/products/nodejs-i": "Meet Node.js - screencast do Peepcode sobre Node.js"
+  - "http://en.wikipedia.org/wiki/Event-driven_programming": "Event-driven programming - programação orientada a eventos na Wikipedia"
+  - "http://www.infoq.com/interviews/node-ryan-dahl": "Deep inside Node.js with Ryan Dahl - entrevista da InfoQ com Ryan Dahl, criador do Node.js"
+  - "http://twistedmatrix.com/trac/": "Twisted - framework para programação assíncrona em Python"
+  - "http://www.igvita.com/2008/05/27/ruby-eventmachine-the-speed-demon/": "Ruby Eventmachine: The speed demon - post do Ilya Grigorik sobre o Eventmachine"
+  - "http://www.nakedjavascript.com/going-evented-with-nodejs": "Going evented with Node.js - post da época do lançamento do Node.js"
+  - "http://nodejs.org/docs/v0.3.4/api/": "Node.js Manual & Documentation - API do Node.js"
+  - "http://en.wikipedia.org/wiki/Asynchronous_I/O": "Asynchronous I/O, da Wikipedia"
+  - "http://learnboost.github.com/cluster/": "Cluster, gerenciamento de processos multi-core do Node.js, sucessor do Spark citado"
+
+sponsored_links:
+  - "http://www.egenial.com.br": "e-Genial - Simplesmente Notável, cursos on-line"
+  - "http://www.egenial.com.br/nodejs": "Curso de Node.js realizado pela e-Genial com Emerson Macedo"
+  - "http://www.caelum.com.br": "Caelum - Ensino e Inovação</a>, cursos presenciais em São Paulo, Rio de Janeiro e Brasilia"
+
+footnotes:
+  - "http://www.flickr.com/photos/dglazkov/1130929768/": "Fotografia do post de Dimitri Glazkov, liberada sob o Creative Commons"
 ---
-Voltamos para continuar nosso papo sobre <strong>Node.js</strong>, o framework para desenvolvimento de aplicações server-side em Javascript que é a febre do momento. Nesse episódio concluímos nossa conversa com <a href="http://twitter.com/fnando" target="_blank">Nando Vieira</a> e <a href="http://twitter.com/emerleite" target="_blank">Emerson Macedo</a> sobre ele, descobrimos projetos ultra-secretos que estão fazendo e como aprender a usar o Node.js.
+Voltamos para continuar nosso papo sobre <strong>Node.js</strong>, o framework para desenvolvimento de aplicações server-side em Javascript que é a febre do momento. Nesse episódio concluímos nossa conversa com <a href="http://twitter.com/fnando" target="_blank">Nando Vieira</a> e <a href="http://twitter.com/emerleite" target="_blank">Emerson Macedo</a> sobre ele, descobrimos projetos ultra-secretos que estão fazendo e como aprender a usar o Node.js. Groke e divirta-se conosco.
 
-<div id="podcast">
-  <audio controls>
-    <source src="{{ site.podcast_file_storage }}{{ page.podcast_file_name }}" type="audio/mpeg">
-    Seu browser não suporta a tag de audio HTML5
-  </audio>
-</div>
-Você pode adicionar o podcast ao seu iTunes <a href="http://itunes.apple.com/us/podcast/grok-podcast/id393122038" target="_blank">clicando aqui</a> ou atráves do nosso <a href="http://grokpodcast.com/feed/" target="_blank">RSS</a>. Também fique por dentro das novidades nos seguindo no twitter <a href="http://twitter.com/GrokPodcast" target="_blank">@grokpodcast</a> e se quiser ajudar na divulgação, <a href="http://twitter.com/?status=Ou%C3%A7a%20o%20%40GrokPodcast%20epis%C3%B3dio%2021%2C%20terceira%20e%20%C3%BAltima%20parte%20sobre%20Node.js%20http%3A%2F%2Fgoo.gl%2F8s953%20%23podcast%20%23nodejs" target="_blank">clique aqui para mandar uma mensagem pelo Twitter</a>. Se você tem sugestões sobre temas, formatos, melhorias, críticas, etc, deixe sua opinião em <a href="http://vote.grokpodcast.com" target="_blank">vote.grokpodcast.com</a>.
-
-Esse episódio é patrocinado pela <strong><a href="http://www.egenial.com.br" target="_blank">e-Genial - Simplesmente Notável</a></strong> e <strong><a href="http://www.caelum.com.br" target="_blank">Caelum - Ensino e Inovação</a></strong>.
-<table class="alignright">
-<tbody>
-<tr>
-<td><a href="http://www.egenial.com.br" target="_blank"><img class="alignright size-full wp-image-40" title="e-Genial - Simplesmente Notável" src="/images/2010/09/logo_egenial.jpg" alt="" width="200" height="71" /></a></td>
-<td><a href="http://www.caelum.com.br" target="_blank"><img class="alignright size-full wp-image-40" title="Caelum - Ensino e Inovação" src="/images/2010/11/caelum-logo.png" alt="" width="227" height="71" /></a></td>
-</tr>
-</tbody>
-</table>
-<h3>Links mencionados no episódio:</h3>
-<ul>
-	<li><a href="http://nodejs.org/" target="_blank">Node.js</a>, site oficial</li>
-</ul>
-<h3>Links anunciados:</h3>
-<ul>
-	<li><a href="http://www.egenial.com.br" target="_blank">e-Genial - Simplesmente Notável</a>, cursos on-line</li>
-	<li><a href="http://www.egenial.com.br/nodejs" target="_blank">Curso de Node.js</a>, realizado pela e-Genial com <a href="http://twitter.com/emerleite" target="_blank">Emerson Macedo</a></li>
-	<li><a href="http://www.caelum.com.br" target="_blank">Caelum - Ensino e Inovação</a>, cursos presenciais em São Paulo, Rio de Janeiro e Brasilia</li>
-</ul>
-<h6><a href="http://www.flickr.com/photos/dglazkov/1130929768/" target="_blank">Fotografia do post de Dimitri Glazkov</a>, liberada sob o Creative Commons</h6>
+{% include default_post_content.html %}

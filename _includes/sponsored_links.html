@@ -1,0 +1,8 @@
+<h3>Links patrocinados:</h3>
+<ul>
+  {% for link_hash in page.sponsored_links %}
+    {% for link in link_hash %}
+      <li><a href="{{link[0]}}" target="_blank">{{ link[1] }}</a></li>
+    {% endfor %}
+  {% endfor %}
+</ul>
