@@ -1,3 +1,4 @@
+{% if page.shownotes != null %}
 <h3>Shownotes:</h3>
 <ul>
   {% for note_hash in page.shownotes %}
@@ -6,3 +7,4 @@
     {% endfor %}
   {% endfor %}
 </ul>
+{% endif %}

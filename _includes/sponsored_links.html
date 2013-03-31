@@ -1,3 +1,4 @@
+{% if page.sponsored_links != null %}
 <h3>Links patrocinados:</h3>
 <ul>
   {% for link_hash in page.sponsored_links %}
@@ -6,3 +7,4 @@
     {% endfor %}
   {% endfor %}
 </ul>
+{% endif %}
