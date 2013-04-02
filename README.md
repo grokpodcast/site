@@ -28,17 +28,7 @@ rake site:generate
 ```
 rake site:publish
 ```
-
-And it will do the following:
-
-1. Generate the static site
-2. Creates a temporary directory
-3. Copy the generated files into it
-4. Initializes a git repo on the directory
-5. Creates a file ".nojekyll"
-6. Commit the files with the current date/time as comment
-7. Set the origin to `GITHUB_REPONAME`
-8. Push overwriting the data on origin, branch 'gh-pages', which signals GitHub to publish the site on GitHub Pages
+We are updating the publish method to use S3 instead of GH Pages
 
 ## Acknowledgments
 
@@ -46,7 +36,8 @@ And it will do the following:
 * Thanks to our [sponsors](http://grokpodcast.com/apoios), you make our life easier
 * Design and implementation by [HE:Labs](http://helabs.com), thanks for the awesome design
 * Developed with [Ruby](http://www.ruby-lang.org/en/) and Jekyll(http://jekyllrb.com/), thanks to our wonderful community
-* Hosted on [GitHub Pages](http://pages.github.com/), thanks for this wonderful service
+* Source code hosted on [GitHub](http://github.com/), thanks for this wonderful service
+* S3 synchonization provided by the awesome [s3cmd](http://s3tools.org/s3cmd), thanks for making our life easier
 
 ## License
 
