@@ -1,5 +1,5 @@
-require_relative '../spec_helper'
-require_relative '../../_lib/tasks_generate'
+require_relative '../../spec_helper'
+require_relative '../../../_lib/tasks/generate'
 
 describe Tasks do
   context 'generate' do
