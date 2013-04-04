@@ -1,33 +1,23 @@
-# Rakefile based on http://ixti.net/software/2013/01/28/using-jekyll-plugins-on-github-pages.html
+require_relative '_lib/tasks_generate'
+require 'rspec/core/rake_task'
 
-require 'jekyll'
-require 'tmpdir'
+RSpec::Core::RakeTask.new(:spec)
 
-GITHUB_REPONAME = "grokpodcast/site"
-
-task :default => ["site:generate"]
+task :default => ['site:generate']
 
 namespace :site do
   desc "Generate blog files"
   task :generate do
-    Jekyll::Site.new(Jekyll.configuration({
-      "source"      => ".",
-      "destination" => "_site"
-    })).process
+    Tasks.generate
   end
 
   desc "Generate and publish blog to gh-pages"
   task :publish => [:generate] do
-    Dir.mktmpdir do |tmp|
-      cp_r "_site/.", tmp
-      Dir.chdir tmp
-      system "git init"
-      touch ".nojekyll"
-      system "git add ."
-      message = "Site updated at #{Time.now.utc}"
-      system "git commit -m #{message.shellescape}"
-      system "git remote add origin git@github.com:#{GITHUB_REPONAME}.git"
-      system "git push origin master:refs/heads/gh-pages --force"
-    end
+    Tasks::Deploy.github_pages
+  end
+
+  desc "Sync generated site to S3"
+  task :sync_with_s3 => [:generate] do
+    Tasks::Deploy.s3
   end
 end

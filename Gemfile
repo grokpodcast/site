@@ -6,3 +6,6 @@ gem 'compass',    '0.12.2'
 gem 'hpricot',    '0.8.6'
 gem 'nokogiri'
 gem 'rake'
+
+gem 'aws-sdk'
+gem 'rspec'
