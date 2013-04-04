@@ -1,2 +1,3 @@
 --default_path _spec
 --format doc
+--color
