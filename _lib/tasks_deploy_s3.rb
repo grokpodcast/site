@@ -20,10 +20,10 @@ module Tasks
         target_existing_files[object.key] = object.etag.delete("\"")
       end
 
-      files_to_process = only_files.count
-      files_copied = 0
-      files_skept = 0
-      files_deleted = 0
+      stats = { processed:  only_files.count,
+                copied:     0,
+                skipped:    0,
+                deleted:    0 }
 
       only_files.each do |file|
         puts "processing #{file}"
@@ -33,18 +33,18 @@ module Tasks
         end
 
         unless skip_copy
-          files_copied += 1
+          stats[:copied] += 1
           puts "copying #{file}"
           s3_object = target_bucket.objects[file]
           s3_object.write Pathname.new(file)
         else
-          files_skept += 1
+          stats[:skipped] += 1
           puts "skipping #{file}"
         end
       end
 
       target_existing_files.each_key do |file|
-        files_deleted += 1
+        stats[:deleted] += 1
         puts "removing dangling file #{file}"
         dangling_file = target_bucket.objects[file]
         dangling_file.delete
@@ -52,10 +52,10 @@ module Tasks
 
       puts "=============="
       puts "Summary:"
-      puts "Files processed: #{files_to_process}"
-      puts "Files copied: #{files_copied}"
-      puts "Files skept: #{files_skept}"
-      puts "Files deleted: #{files_deleted}"
+      puts "Files processed: #{stats[:processed]}"
+      puts "Files copied: #{stats[:copied]}"
+      puts "Files skept: #{stats[:skipped]}"
+      puts "Files deleted: #{stats[:deleted]}"
     end
   end
 end
