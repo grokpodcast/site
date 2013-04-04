@@ -3,7 +3,7 @@ require 'aws-sdk'
 module Tasks
   module Deploy
     def self.deploy_s3
-      credentials = {access_key_id: 'AKIAI6BEZHG2XF3XI7EQ', secret_access_key: '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'}
+      credentials = {access_key_id: 'A', secret_access_key: 'B'}
 
       AWS.config(credentials)
       s3 = AWS::S3.new
