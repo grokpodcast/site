@@ -1,13 +1,8 @@
 require 'jekyll'
 
 module Tasks
-  DEFAULT_CONFIGURATION = {
-      "source"      => ".",
-      "destination" => "_site"
-  }
-
   def self.generate
-    configuration = Jekyll.configuration(DEFAULT_CONFIGURATION)
+    configuration = Jekyll.configuration({})
     site = Jekyll::Site.new(configuration)
     site.process
     true
