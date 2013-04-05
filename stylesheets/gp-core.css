@@ -417,14 +417,13 @@ footer p {
 
 #listen {
   background: #444;
-  width: 790px;
+  width: 870px;
   clear: both;
-  padding: 15px 75px;
+  padding: 15px 35px;
   overflow: hidden;
 }
 
 #listen ul {
-  width: 525px;
   overflow: hidden;
   margin: 0 auto;
 }
@@ -440,6 +439,24 @@ footer p {
   padding: 18px 0;
   font-size: 16px;
   overflow: hidden;
+}
+
+#listen li.facebook,
+#listen li.twitter {
+  height: 48px;
+  width: 48px;
+}
+
+#listen li.facebook {
+  margin-right: 15px;
+}
+
+#listen li.facebook a,
+#listen li.twitter a {
+  padding: 3px 0 0;
+  display: inline;
+  overflow-x: visible;
+  overflow-y: visible;
 }
 
 #listen a span, .lastepi span {
@@ -470,6 +487,7 @@ footer p {
 
 .itunes {
   width: 240px;
+  margin-right: 234px;
 }
 
 .itunes a {
