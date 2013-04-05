@@ -252,6 +252,13 @@ aside img {
 
 	}
 
+  footer .support,
+  footer p.license {
+    float: none;
+    width: auto;
+    text-align: center;
+  }
+
 }
 
 
