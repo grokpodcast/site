@@ -127,8 +127,8 @@ header h1 a {
 }
 
 @media only screen and (min-resolution: 192dpi) {
-  
-	header h1 a { 
+
+	header h1 a {
 	    background:url("/images/logo2x.png");
 	    background-size:328px 100px;
 	}
@@ -262,7 +262,17 @@ header a:hover, footer a:hover {
 #entry {
 	width:550px;
   padding:26px 0 0 0;
-  float:left; 
+  float:left;
+}
+
+#entry ul {
+  margin-left: 20px;
+  padding: 0;
+}
+
+#entry li {
+  list-style-type: disc;
+  margin-bottom: 5px;
 }
 
 
@@ -358,7 +368,7 @@ footer p {
 
 @media only screen and (min-resolution: 192dpi) {
 
-	#footer-logo { 
+	#footer-logo {
 	    background:url("/images/footer-logo2x.png");
 	    background-size:50px 152px;
 	}
@@ -665,7 +675,7 @@ footer p {
 #profile .content li {
   list-style-type: disc;
   margin-bottom: 5px;
-} 
+}
 
 #profile .content p:first-child {
   margin-top: 0;
