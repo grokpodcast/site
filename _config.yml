@@ -12,3 +12,7 @@ sass:
 
 featured:
   title: Trabalho Remoto
+
+deploy:
+  github_pages:
+    target_repository: 'grokpodcast/site'
