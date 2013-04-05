@@ -41,4 +41,4 @@ We are updating the publish method to use S3 instead of GH Pages
 
 ## License
 
-See LICENSE.md
+See [LICENSE](https://github.com/grokpodcast/site/blob/master/LICENSE.md)
