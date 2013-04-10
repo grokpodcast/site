@@ -6,3 +6,4 @@ Vagrantfile
 .bundle/
 bin/
 .rvmrc
+vendor/
