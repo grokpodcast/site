@@ -7,3 +7,4 @@ Vagrantfile
 bin/
 .rvmrc
 vendor/
+_vendor/
