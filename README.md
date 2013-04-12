@@ -10,7 +10,7 @@ bundle install
 
 You can also use binstubs:
 ```
-bundle install --binstubs
+bundle install --path=_vendor --binstubs
 ```
 Just remember to always call `bin/<comand>`, like `bin/jekyll`, `bin/rake` when using binstubs.
 
