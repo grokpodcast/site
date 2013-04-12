@@ -270,6 +270,7 @@ header a:hover, footer a:hover {
 }
 
 #entry ul {
+  clear: both;
   margin-left: 20px;
   padding: 0;
 }
