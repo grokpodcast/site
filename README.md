@@ -1,6 +1,6 @@
 # [Grok Podcast Website](http://grokpodcast.com)
 
-Right now we are using a forked version of Jekyll since the current published version (0.12.1) doesn't have a filter to generate RFC-822 compliant dates, which are used on RSS feeds. [I created a pull request to add the feature on the main branch](https://github.com/mojombo/jekyll/pull/892#issuecomment-15593610), but it looks like they are undergoing a major overhaul to release version 1.0, I don't have any idea of when and if they are going to merge it.
+Using Jekyll's trunk version, which has a filter to generate RFC-822 compliant dates, which are used on RSS feeds.
 
 ## Install:
 Assuming you're running on, at least, Ruby 1.9.3, clone the repo, then:
