@@ -32,7 +32,7 @@ We are updating the publish method to use S3 instead of GH Pages
 
 ## Acknowledgments
 
-* *Thanks to our faithful audience, valeu galera :)*
+* Thanks to our faithful audience, valeu galera :)*
 * Thanks to our [sponsors](http://grokpodcast.com/apoios), you make our life easier
 * Design and implementation by [HE:Labs](http://helabs.com), thanks for the awesome design
 * Developed with [Ruby](http://www.ruby-lang.org/en/) and Jekyll(http://jekyllrb.com/), thanks to our wonderful community
