@@ -11,7 +11,7 @@ sass:
   style:  compressed  # nested|expanded|compact|compressed
 
 featured:
-  title: Trabalho Remoto
+  title: "C# 5 e Typescript"
 
 deploy:
   github_pages:
