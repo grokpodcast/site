@@ -1,7 +1,5 @@
 # [Grok Podcast Website](http://grokpodcast.com)
 
-Using Jekyll's trunk version, which has a filter to generate RFC-822 compliant dates, which are used on RSS feeds.
-
 ## Install:
 Assuming you're running on, at least, Ruby 1.9.3, clone the repo, then:
 ```
@@ -13,8 +11,6 @@ You can also use binstubs:
 bundle install --path=_vendor --binstubs
 ```
 Just remember to always call `bin/<comand>`, like `bin/jekyll`, `bin/rake` when using binstubs.
-
-Given the fact that we are using a forked version of Jekyll, I would recommend to use binstubs, or project specific gemsets if you're using RVM, .rvmrc is already on .gitignore.
 
 ## Generate the static site
 
