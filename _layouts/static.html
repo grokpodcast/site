@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   {% include head.html %}
 </head>
+
   <body class="static">
     {% include topbar.html %}
+
     <div class="holder">
+
       {% include header.html %}
+
       <section id="post-infos">
         <p id="serie-name">{{ page.title }}</p>
       </section> <!-- /post-infos -->
+
       <section id="content">
         {{ content }}
       </section>
+
+      {% include mobile_navigation.html %}
+
     </div> <!-- holder -->
+
     {% include footer.html %}
     {% include scripts.html %}
   </body>

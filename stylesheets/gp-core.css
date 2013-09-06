@@ -351,7 +351,7 @@ aside p {
 footer {
   width:100%;
   text-align:center;
-  margin:45px 0 80px 0;
+  margin:20px 0 80px 0;
   color:#fff;
   float:left;
   font-size: 12px;
@@ -678,18 +678,9 @@ footer p.license {
   width: 600px;
 }
 
-
-#about {
-}
-
-#about .content {
+#about aside {
+  margin: 0px 10px 0px 0px;
   float: left;
-  width: 550px;
-}
-
-#about .image {
-  float: right;
-  margin-top: 1px;
 }
 
 #profile {
@@ -774,4 +765,8 @@ footer p.license {
 #navigation #search input {
   padding: 5px 10px;
   font-size: 14px;
+}
+
+#mobile-navigation {
+  display: none;
 }
