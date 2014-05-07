@@ -1,5 +1,5 @@
 base_url: http://www.grokpodcast.com
-podcast_file_storage: http://s3.amazonaws.com/grokpodcast/
+podcast_file_storage: http://media.grokpodcast.com/
 google_analytics_code: UA-18562844-1
 permalink:  pretty
 markdown:   rdiscount
@@ -9,7 +9,7 @@ sass:
   style:  compressed  # nested|expanded|compact|compressed
 
 featured:
-  title: "C# 5 e Typescript"
+  title: "Programadoras"
 
 deploy:
   github_pages:
