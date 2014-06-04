@@ -9,7 +9,7 @@ sass:
   style:  compressed  # nested|expanded|compact|compressed
 
 featured:
-  title: "Programadoras"
+  title: "10 anos do Ruby on Rails"
 
 deploy:
   github_pages:
