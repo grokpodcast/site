@@ -678,6 +678,10 @@ footer p.license {
   width: 600px;
 }
 
+footer div.cloudflare {
+  display: inline-block;
+}
+
 #about aside {
   margin: 0px 10px 0px 0px;
   float: left;
