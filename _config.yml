@@ -9,7 +9,7 @@ sass:
   style:  compressed  # nested|expanded|compact|compressed
 
 featured:
-  title: "10 anos do Ruby on Rails"
+  title: "Extra - RubyConf Brasil 2014"
 
 deploy:
   github_pages:
