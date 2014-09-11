@@ -2,7 +2,7 @@ base_url: http://www.grokpodcast.com
 podcast_file_storage: http://media.grokpodcast.com/
 google_analytics_code: UA-18562844-1
 permalink:  pretty
-markdown:   rdiscount
+markdown:   kramdown
 exclude: ['bin', 'Rakefile', 'README.md', 'LICENSE.md', 'Gemfile', 'Gemfile.lock', 'config.rb', 'vendor']
 sass:
   syntax: scss        # scss|sass
@@ -14,3 +14,6 @@ featured:
 deploy:
   github_pages:
     target_repository: 'grokpodcast/site'
+
+gems:
+  - jekyll-redirect-from
