@@ -11,6 +11,11 @@ sass:
 featured:
   title: "Extra - RubyConf Brasil 2014"
 
+collections:
+  series:
+    output: true
+    permalink: /series/:path/
+
 deploy:
   github_pages:
     target_repository: 'grokpodcast/site'
