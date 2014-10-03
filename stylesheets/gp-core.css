@@ -239,6 +239,10 @@ header a:hover, footer a:hover {
   color:#fff;
 }
 
+#serie-name a {
+  color:#fff;
+}
+
 #post-infos h2 {
   font:20px arial, sans-serif;
   margin:10px 0 10px 0;
