@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /*
-2013 Hora Extra
+2014 Grok Podcast
 Author: HE:labs
 */
 
@@ -39,8 +39,8 @@ a:hover {
 
 body {
   border-top:5px solid #ffca00;
-	font-family:"Lucida Grande", Lucida, sans-serif;
-	background:#000 url("/images/bg.jpg") top right no-repeat;
+	font-family: Arial, sans-serif, sans-serif;
+	background:#000 url("/images/bg.jpg") top right fixed no-repeat;
 	font-size:14px;
   line-height:20px;
 	color:#797a7a;
@@ -48,9 +48,9 @@ body {
 }
 
 p {
-  margin:25px 0 0 0;
-  line-height:26px;
-  font-size:16px;
+  margin: 0 0 20px 0;
+  line-height: 26px;
+  font-size: 16px;
 }
 
 h1 a {
@@ -64,19 +64,15 @@ h1 a:hover {
 }
 
 h2 {
-  width:100%;
   font-weight:normal;
-  float:left;
 }
 
 h3, h4 {
-  width:100%;
   border-bottom:1px solid #ececec;
   padding:0 0 10px 0;
   margin:35px 0 25px 0;
   font:20px Arial, sans-serif;
   font-weight:normal;
-  float:left;
 }
 
 h3 {
@@ -99,31 +95,24 @@ address {
 /* Page */
 
 .holder {
-  width:940px;
-  padding:0 10px 0 10px;
-	margin:auto;
-}
-
-
-/* Topbar */
-
-#topbar {
-  display:none;
+  width: 940px;
+	margin: auto;
 }
 
 
 /* Header */
 
 header {
-  margin:40px 0 40px 0;
-  float:left;
+  padding: 20px 0;
+  clear: both;
 }
 
 header h1 a {
-	width:328px; height:50px;
-	background:url("/images/logo.png");
-  margin:20px 0 0 30px;
-  float:left;
+	width: 328px;
+  height: 50px;
+	background: url("/images/logo.png");
+  margin: 20px 0 0 30px;
+  float: left;
 }
 
 @media only screen and (min-resolution: 192dpi) {
@@ -140,7 +129,8 @@ header h1 a {
 
 header ul {
   padding:0;
-  float:right;
+  margin-bottom: 40px;
+  float: right;
 }
 
 header li {
@@ -189,78 +179,135 @@ header a:hover, footer a:hover {
 /* Nav */
 
 #navigation {
-  border-top-left-radius:4px;
-  border-top-right-radius:4px;
-  height:60px;
-  background:#7b7b90;
-  padding:0 20px;
-  float:left;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  height: 60px;
+  background: #7b7b90;
+  padding: 0 30px;
+  clear: both;
 }
 
 #nav-principal {
-  font-size:18px;
+  font-size: 16px;
 }
 
 #nav-principal li {
   line-height: 60px;
-  margin-right: 15px;
+  margin-left: 20px;
   float: left;
-  padding-right: 15px;
-  border-right: 1px rgba(255,255,255,.2) solid;
+  padding-left: 20px;
+  border-left: 1px rgba(255,255,255,.2) solid;
+}
+
+#nav-principal li:first-child {
+  margin-left: 0;
+  border-left: none;
+  padding-left: 0;
 }
 
 #nav-principal a {
-  color:#f1f1ff;
+  color: #f1f1ff;
 }
 
 #nav-principal a:hover {
-  color:#fff;
+  color: #fff;
+}
+
+#nav-principal #search {
+  padding: 0;
+  border: none;
+  margin: 11px 0 0 0;
+  float: right;
+}
+
+#nav-principal #search input[type="text"] {
+  border-radius: 2px;
+  background: #eeeef7;
+  font: 14px Arial, sans-serif, sans-serif;
+  border: none;
+  height: 37px;
+  line-height: 37px;
+  outline: none;
+  padding: 0 10px;
+  float: right;
 }
 
 
-/* Post Infos */
+/* Pages Infos */
+
+#post-infos,
+#series-infos,
+#page-infos {
+  padding: 25px 30px 25px 30px;
+  clear: both;
+}
+
+#post-infos p,
+#series-infos p,
+#page-infos p {
+  margin: 0 !important;
+}
 
 #post-infos {
-  width:880px;
-  height:140px;
-  background:#4b4b4b;
-  padding:0 30px 0 30px;
-  float:left;
+  background: #4b4b4b;
 }
 
-.static #post-infos {
-  height: auto;
+#series-infos {
+  background: #575766;
+}
+
+#series-infos .addthis_toolbox {
+  margin-top: 20px;
+}
+
+#series-infos #serie-name {
+  background: #575766;
+}
+
+#page-infos {
+  background: #575766;
   padding-bottom: 30px;
 }
 
 #serie-name {
-  margin:27px 0 0 0;
-  font:25px arial, sans-serif;
-  color:#fff;
+  font-size: 26px;
+  color: #fff;
+}
+
+#serie-name strong {
+  color: #e4e4ff;
+  font-weight: normal;
+}
+
+#serie-name a {
+  color: #fff;
 }
 
 #post-infos h2 {
-  font:20px arial, sans-serif;
-  margin:10px 0 10px 0;
-  color:#c9c9c9;
+  font-size: 20px;
+  margin: 10px 0 20px 0;
+  font-weight: normal !important;
+  color: #c9c9c9;
 }
 
-#post-infos .addthis_toolbox {
-}
 
 /* Content */
 
 #content {
-  border-bottom-left-radius:4px;
-  border-bottom-right-radius:4px;
-  width:880px;
-  background:#fff;
-  padding:0 30px 40px 30px;
-	float:left;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background: #fff;
+  padding: 40px 30px 20px 30px;
 }
 
-.static #content {
-  padding-top: 20px;
+#content:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  min-height: 0;
 }
 
 #entry {
@@ -501,9 +548,19 @@ footer p {
 }
 
 .list-title {
-  width: 100%;
-  border-bottom: 1px #333 solid;
-  margin-bottom: 30px;
+  line-height: 12px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+#regular-series .list-title h1 {
+  width: 220px;
+}   
+
+#extra-episodes .list-title h1 {
+  width: 165px;
 }
 
 .epi-list h1, .list-title h1 {
@@ -683,20 +740,21 @@ footer div.cloudflare {
 }
 
 #about aside {
-  margin: 0px 10px 0px 0px;
+  width: 160px;
   float: left;
 }
 
-#profile {
+#about aside img {
+  width: 160px;
+  margin-top: 25px;
 }
 
-#profile .content {
-  width: 640px;
-  float: left;
+#about .content {
+  margin-left: 195px;
 }
 
 #profile .content ul {
-  margin:10px 0 0 20px;
+  margin: 10px 0 0 20px;
 }
 
 #profile .content li {
@@ -720,13 +778,12 @@ footer div.cloudflare {
   clear: both;
   width: 100%;
 }
-#contact {}
 
 #contact input,
 #contact textarea,
 #search-404 input,
 #search-404 textarea {
-  font-family: "Lucida Grande",Lucida,sans-serif;
+  font-family: Arial, sans-serif, sans-serif;
   border: 1px solid #ccc;
   border-radius: 3px;
   display: block;
@@ -757,18 +814,6 @@ footer div.cloudflare {
 #contact textarea {
   height: 140px;
   resize: none;
-}
-
-#navigation #search {
-  float: right;
-  margin-right: 0;
-  border: 0;
-  padding: 0;
-}
-
-#navigation #search input {
-  padding: 5px 10px;
-  font-size: 14px;
 }
 
 #mobile-navigation {

@@ -13,10 +13,15 @@
       <section id="post-infos">
 
         <p id="serie-name">
+          {% if page.section != 'extra' %}
+          <a href="/series/{{ page.serie | slugify }}">{{ page.serie }}</a>
+          {% else %}
           {{ page.serie }}
+          {% endif %}
         </p>
 
         <h2>{{ page.title }}</h2>
+
         <!-- AddThis Button BEGIN -->
         <div class="addthis_toolbox addthis_default_style">
           <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>

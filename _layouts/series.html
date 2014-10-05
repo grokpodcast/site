@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  {% include head.html %}
+</head>
+  <body>
+    {% include topbar.html %}
+
+    <div class="holder">
+
+      {% include header.html %}
+
+      <section id="series-infos">
+
+        <p id="serie-name">
+          <strong>Série:</strong> {{ page.title }}
+        </p>
+
+        <div class="addthis_toolbox addthis_default_style">
+          <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+          <a class="addthis_button_tweet"></a>
+        </div>
+
+      </section> <!-- /post-infos -->
+
+      <section id="content">
+        <section id="regular-series" class="series-list">
+
+          <div class="list-title">
+            <h1>Episódios</h1>
+          </div>
+    
+          <ul>
+            {% assign episodes = (site.posts | where: "serie", page.title | sort: "episode") %}
+            {% for episode in episodes %}
+              <li>
+                <a href="{{ episode.url }}" title="{{ episode.title }}">
+                  <div class="serie-image">
+                    <img src="{{ episode.img_src }}" alt="{{ episode.img_alt }}" title="{{ episode.img_title }}" width="270px" />
+                  </div>
+                  <h2>{{ episode.title }}</h2>
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </section>
+      </section>
+
+      {% include mobile_navigation.html %}
+    </div> <!-- holder -->
+
+    {% include footer.html %}
+    {% include scripts.html %}
+  </body>
+</html>
