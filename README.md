@@ -1,30 +1,31 @@
 # [Grok Podcast Website](http://grokpodcast.com)
 
-## Install:
-Assuming you're running on, at least, Ruby 1.9.3, clone the repo, then:
-```
-bundle install
-```
+## Setup with Vagrant
 
-You can also use binstubs:
+Assuming you have [Vagrant](https://www.vagrantup.com/) installed on your machine:
+
 ```
-bundle install --path=_vendor --binstubs
+git clone git@github.com:grokpodcast/site.git grok_site
+cd grok_site
+vagrant up
+vagrant reload
+vagrant ssh
+
+git config user.name "<YOUR NAME>"
+git config user.email "<YOUR E_MAIL ON GITHUB>"
+
+gem install bundler
+
+cd /vagrant
+gem install --path=vendor --binstubs
 ```
-Just remember to always call `bin/<comand>`, like `bin/jekyll`, `bin/rake` when using binstubs.
 
 ## Generate the static site
 
 ```
-rake site:generate
+bin/jekyll build
+bin/jekyll serve
 ```
-
-## Publish website to GitHub pages:
-
-[The publishing mechanism was "inspired" by this post](http://ixti.net/software/2013/01/28/using-jekyll-plugins-on-github-pages.html). Just call:
-```
-rake site:publish
-```
-We are updating the publish method to use S3 instead of GH Pages
 
 ## Acknowledgments
 
