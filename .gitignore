@@ -1,7 +1,6 @@
 .DS_Store
 _site*
 series.rb
-Vagrantfile
 .vagrant/
 .bundle/
 bin/
