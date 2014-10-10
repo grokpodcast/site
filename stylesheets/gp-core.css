@@ -257,6 +257,10 @@ header a:hover, footer a:hover {
   height: 110px;
 }
 
+#series-infos .addthis_toolbox {
+  margin-top: -70px;
+}
+
 #series-infos #serie-name {
   background: #575766;
   height: 110px;

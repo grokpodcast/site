@@ -16,18 +16,20 @@
           <strong>Série:</strong> {{ page.title }}
         </p>
 
-        <h2><!-- --></h2>
-
-        <!-- AddThis Button BEGIN -->
         <div class="addthis_toolbox addthis_default_style">
           <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
           <a class="addthis_button_tweet"></a>
         </div>
-        <!-- AddThis Button END -->
+
       </section> <!-- /post-infos -->
 
       <section id="content">
         <section id="regular-series" class="series-list">
+
+          <div class="list-title">
+            <h1>Episódios da série</h1>
+          </div>
+    
           <ul>
             {% assign episodes = (site.posts | where: "serie", page.title | sort: "episode") %}
             {% for episode in episodes %}
