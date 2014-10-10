@@ -505,9 +505,20 @@ footer p {
 }
 
 .list-title {
-  width: 100%;
-  border-bottom: 1px #333 solid;
-  margin-bottom: 30px;
+  line-height: 12px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+#regular-series .list-title h1 {
+  width: 220px;
+}   
+
+
+#extra-episodes .list-title h1 {
+  width: 165px;
 }
 
 .epi-list h1, .list-title h1 {
