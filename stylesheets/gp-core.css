@@ -217,10 +217,23 @@ header a:hover, footer a:hover {
   color: #fff;
 }
 
-#nav-principal #search input[type="text"] {
-  background: #eeeef7;
+#nav-principal #search {
+  padding: 0;
   border: none;
-  height: 34px;
+  margin: 11px 0 0 0;
+  float: right;
+}
+
+#nav-principal #search input[type="text"] {
+  border-radius: 2px;
+  background: #eeeef7;
+  font: 14px "Lucida Grande", Lucida, sans-serif;
+  border: none;
+  height: 37px;
+  line-height: 37px;
+  outline: none;
+  padding: 0 10px;
+  float: right;
 }
 
 
@@ -240,11 +253,12 @@ header a:hover, footer a:hover {
 
 #series-infos {
   background: #575766;
-  height: 115px;
+  height: 110px;
 }
 
-#series-infos #serie-name {
-  margin-bottom: 15px;
+#series-infos #serie-name{
+  background: #575766;
+  height: 110px;
 }
 
 #serie-name {
@@ -788,13 +802,6 @@ footer div.cloudflare {
 #contact textarea {
   height: 140px;
   resize: none;
-}
-
-#navigation #search {
-  float: right;
-  margin-right: 0;
-  border: 0;
-  padding: 0;
 }
 
 #mobile-navigation {
