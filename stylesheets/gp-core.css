@@ -64,19 +64,15 @@ h1 a:hover {
 }
 
 h2 {
-  width:100%;
   font-weight:normal;
-  float:left;
 }
 
 h3, h4 {
-  width:100%;
   border-bottom:1px solid #ececec;
   padding:0 0 10px 0;
   margin:35px 0 25px 0;
   font:20px Arial, sans-serif;
   font-weight:normal;
-  float:left;
 }
 
 h3 {
@@ -99,31 +95,24 @@ address {
 /* Page */
 
 .holder {
-  width:940px;
-  padding:0 10px 0 10px;
-	margin:auto;
-}
-
-
-/* Topbar */
-
-#topbar {
-  display:none;
+  width: 940px;
+	margin: auto;
 }
 
 
 /* Header */
 
 header {
-  margin:40px 0 40px 0;
-  float:left;
+  padding: 20px 0;
+  clear: both;
 }
 
 header h1 a {
-	width:328px; height:50px;
-	background:url("/images/logo.png");
-  margin:20px 0 0 30px;
-  float:left;
+	width: 328px;
+  height: 50px;
+	background: url("/images/logo.png");
+  margin: 20px 0 0 30px;
+  float: left;
 }
 
 @media only screen and (min-resolution: 192dpi) {
@@ -140,7 +129,8 @@ header h1 a {
 
 header ul {
   padding:0;
-  float:right;
+  margin-bottom: 40px;
+  float: right;
 }
 
 header li {
@@ -189,24 +179,30 @@ header a:hover, footer a:hover {
 /* Nav */
 
 #navigation {
-  border-top-left-radius:4px;
-  border-top-right-radius:4px;
-  height:60px;
-  background:#7b7b90;
-  padding:0 20px;
-  float:left;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  height: 60px;
+  background: #7b7b90;
+  padding: 0 30px;
+  clear: both;
 }
 
 #nav-principal {
-  font-size:18px;
+  font-size: 16px;
 }
 
 #nav-principal li {
   line-height: 60px;
-  margin-right: 15px;
+  margin-left: 15px;
   float: left;
-  padding-right: 15px;
-  border-right: 1px rgba(255,255,255,.2) solid;
+  padding-left: 15px;
+  border-left: 1px rgba(255,255,255,.2) solid;
+}
+
+#nav-principal li:first-child {
+  margin-left: 0;
+  border-left: none;
+  padding-left: 0;
 }
 
 #nav-principal a {
@@ -242,9 +238,8 @@ header a:hover, footer a:hover {
 #post-infos,
 #series-infos,
 #page-infos {
-  width: 880px;
-  padding: 0 30px 0 30px;
-  float: left;
+  padding: 1px 30px 0 30px;
+  clear: both;
 }
 
 #post-infos {
@@ -296,12 +291,20 @@ header a:hover, footer a:hover {
 /* Content */
 
 #content {
-  border-bottom-left-radius:4px;
-  border-bottom-right-radius:4px;
-  width:880px;
-  background:#fff;
-  padding:0 30px 40px 30px;
-	float:left;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background: #fff;
+  padding: 10px 30px 30px 30px;
+}
+
+#content:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  min-height: 0;
 }
 
 .static #content {
@@ -742,16 +745,13 @@ footer div.cloudflare {
   float: left;
 }
 
-#profile {
-}
-
 #profile .content {
   width: 640px;
   float: left;
 }
 
 #profile .content ul {
-  margin:10px 0 0 20px;
+  margin: 10px 0 0 20px;
 }
 
 #profile .content li {
@@ -775,7 +775,6 @@ footer div.cloudflare {
   clear: both;
   width: 100%;
 }
-#contact {}
 
 #contact input,
 #contact textarea,
