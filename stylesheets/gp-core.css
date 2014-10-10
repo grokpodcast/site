@@ -40,7 +40,7 @@ a:hover {
 body {
   border-top:5px solid #ffca00;
 	font-family:"Lucida Grande", Lucida, sans-serif;
-	background:#000 url("/images/bg.jpg") top right no-repeat;
+	background:#000 url("/images/bg.jpg") top right fixed no-repeat;
 	font-size:14px;
   line-height:20px;
 	color:#797a7a;
