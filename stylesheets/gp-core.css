@@ -210,11 +210,17 @@ header a:hover, footer a:hover {
 }
 
 #nav-principal a {
-  color:#f1f1ff;
+  color: #f1f1ff;
 }
 
 #nav-principal a:hover {
-  color:#fff;
+  color: #fff;
+}
+
+#nav-principal #search input[type="text"] {
+  background: #eeeef7;
+  border: none;
+  height: 34px;
 }
 
 
@@ -247,7 +253,8 @@ header a:hover, footer a:hover {
 }
 
 #serie-name strong {
-  color: #ccc;
+  color: #e4e4ff;
+  font-weight: normal;
 }
 
 #serie-name a {
@@ -788,11 +795,6 @@ footer div.cloudflare {
   margin-right: 0;
   border: 0;
   padding: 0;
-}
-
-#navigation #search input {
-  padding: 5px 10px;
-  font-size: 14px;
 }
 
 #mobile-navigation {
