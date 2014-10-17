@@ -718,27 +718,6 @@ footer p {
   color: #8c88fc;
 }
 
-.support a {
-  text-align: center;
-  display: block;
-  margin-bottom: 20px;
-}
-
-footer .support {
-  float: left;
-  width: 250px;
-}
-
-footer p.license {
-  float: right;
-  text-align: right;
-  width: 600px;
-}
-
-footer div.cloudflare {
-  display: inline-block;
-}
-
 #about aside {
   width: 160px;
   float: left;
@@ -818,4 +797,38 @@ footer div.cloudflare {
 
 #mobile-navigation {
   display: none;
+}
+
+
+/* Footer */
+
+footer {
+  text-align: center;
+}
+
+footer a,
+footer p {
+  font-size: 12px;
+}
+
+.license {
+  border-bottom: 1px solid #ffca00;
+  padding: 20px 90px 30px 90px;
+  text-align: center;
+}
+
+.license a img {
+  display: table;
+  margin: 10px auto;
+}
+
+.cloudflare {
+  text-align: center;
+  margin: 30px 0 40px 0;
+  border-bottom: 1px solid #ffca00;
+  padding: 0 0 20px 0;
+}
+
+.cloudflare-badge {
+  margin: 10px auto;
 }
