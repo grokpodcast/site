@@ -20,13 +20,6 @@ body {
 }
 
 
-/* General */
-
-* {
-	-webkit-transition: margin 0.2s linear, border-color 1s linear;
-}
-
-
 /*
 Max Width, 960px
 Media Queries for Tablets
@@ -48,16 +41,8 @@ Media Queries for Tablets
     display: none;
   }
 
-
-  /* Time */
-
   header ul {
-    padding: 0;
-    margin: 0;
-  }
-
-  header li {
-    float: left;
+    display: none;
   }
 
 
