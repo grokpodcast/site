@@ -829,3 +829,11 @@ footer p {
 .support a:hover img {
   opacity: .9;
 }
+
+/*-*/
+
+#mc_embed_signup {
+  background: #fff;
+  font: 14px Arial, sans-serif;
+  clear: left;
+}
