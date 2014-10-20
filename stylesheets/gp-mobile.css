@@ -8,49 +8,23 @@
 /* Page */
 
 .holder {
-  width:700px;
-}
-
-
-/* Header */
-
-header {
-  width:700px;
+  width: 700px;
 }
 
 
 /* Time */
 
 header ul {
-  width:100%;
-  padding:0;
-  float:left;
+  padding: 0;
+  margin: 0;
 }
 
 header li {
-  float:left;
-}
-
-
-/* Nav */
-
-#navigation {
-  width:640px;
-}
-
-
-/* Post Infos */
-
-#post-infos {
-  width:640px;
+  float: left;
 }
 
 
 /* Content */
-
-#content {
-  width:640px;
-}
 
 #entry {
 	width:370px;
@@ -60,11 +34,11 @@ header li {
 /* Aside */
 
 aside {
-  width:230px;
+  width: 230px;
 }
 
 aside img {
-  width:228px;
+  width: 228px;
 }
 
 
@@ -75,7 +49,7 @@ aside img {
   /* General */
 
   body {
-    background:#7b7b90 !important;
+    background: #7b7b90 !important;
   }
 
 
@@ -83,14 +57,12 @@ aside img {
 
 	.holder {
     overflow: hidden;
-		width:92%;
-		padding:0 4% 0 4%;
+		width: 92%;
 	}
 
   #navigation {
     display: none;
   }
-
 
   #featured-episode {
     background: #000;
@@ -135,6 +107,7 @@ aside img {
     float: none;
     margin: 0 auto 50px auto;
   }
+
 
   /* Topbar */
 
