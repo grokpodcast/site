@@ -344,29 +344,6 @@ header a:hover {
 }
 
 
-/* Post Actions */
-
-#post-actions {
-  width:100%; height:55px;
-  border-bottom:1px solid #ececec;
-  line-height:55px;
-  float:left;
-}
-
-#post-actions li {
-  margin-right:40px;
-  float:left;
-}
-
-#post-actions a {
-    color:#6a6aac;
-}
-
-#post-actions a:hover {
-    color:#8d8de0;
-}
-
-
 /* Shownotes */
 
 .sample {
@@ -682,30 +659,33 @@ aside p {
 }
 
 #podcast-infos {
-  width: 880px;
-  margin: 0 auto;
   background: #fff;
   border-bottom: 1px #ececec solid;
-  padding: 18px 0 10px 0;
-  font-size: 16px;
+  padding: 0 0 15px 0;
+  font-size: 14px;
+  margin-top: -20px;
 }
 
 #podcast-infos #published_on {
   margin-left: 20px;
 }
 
-.duration {
-  padding: 5px 0 5px 35px;
+.duration,
+.download-podcast {
+  padding: 0 0 0 35px;
   width: 80px;
+  height: 30px;
+  line-height: 27px;
+  display: inline-block;
+}
+
+.duration {
   background: url("/images/time-ico.png") no-repeat left top;
   display: inline-block;
 }
 
 .download-podcast {
-  padding: 5px 0 5px 35px;
-  width: 80px;
   background: url("/images/download-ico.png") no-repeat left top;
-  display: inline-block;
   color: #8c88fc;
 }
 
