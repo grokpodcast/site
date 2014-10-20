@@ -47,9 +47,6 @@ a:hover {
 	color:#59abff;
 }
 
-
-/* General */
-
 body {
   border-top:5px solid #ffca00;
 	font-family: Arial, sans-serif, sans-serif;
@@ -65,6 +62,13 @@ p {
   line-height: 26px;
   font-size: 16px;
 }
+
+address {
+	color:#b7bcbc;
+}
+
+
+/* Headlines */
 
 h1 a {
 	text-indent:-9999px;
@@ -94,14 +98,6 @@ h3 {
 
 h4 {
   color:#333;
-}
-
-.input-hide {
-  display:none;
-}
-
-address {
-	 color:#b7bcbc;
 }
 
 
@@ -539,6 +535,9 @@ aside p {
   margin-top: 25px;
 }
 
+
+/* Episodes and Series */
+
 .list-title {
   line-height: 12px;
   border-bottom: 1px solid #ddd;
@@ -710,6 +709,9 @@ aside p {
   color: #8c88fc;
 }
 
+
+/* About */
+
 #about aside {
   width: 160px;
   float: left;
@@ -723,6 +725,9 @@ aside p {
 #about .content {
   margin-left: 195px;
 }
+
+
+/* Profile */
 
 #profile .content ul {
   margin: 10px 0 0 20px;
@@ -749,6 +754,9 @@ aside p {
   clear: both;
   width: 100%;
 }
+
+
+/* Forms */
 
 #contact input,
 #contact textarea,
@@ -843,7 +851,12 @@ footer p {
   opacity: .9;
 }
 
-/*-*/
+
+/* General Class */
+
+.input-hide {
+  display:none;
+}
 
 #mc_embed_signup {
   background: #fff;
