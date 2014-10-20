@@ -40,6 +40,13 @@ Media Queries for Tablets
   .holder {
     width: 700px;
   }
+  
+  
+  /* General */
+  
+  #search {
+    display: none;
+  }
 
 
   /* Time */
@@ -98,6 +105,9 @@ Media Queries for Smartphones
   #navigation {
     display: none;
   }
+  
+  
+  /* Home */
 
   #featured-episode {
     background: #000;
@@ -129,6 +139,9 @@ Media Queries for Smartphones
     margin: 5px auto;
     float: none;
   }
+  
+  
+  /* Series */
 
   .series-list {
     margin-top: 10px;
@@ -190,7 +203,7 @@ Media Queries for Smartphones
   /* Header */
 
   header {
-    display:none;
+    display: none;
   }
 
 

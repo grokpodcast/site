@@ -420,11 +420,16 @@ aside p {
 }
 
 
+/* Home */
+
 #featured-episode {
   position: relative;
-  width: 940px;
   height: 301px;
   clear: both;
+}
+
+#featured-episode img {
+  width: 100%;
 }
 
 #featured-episode h2,
@@ -454,8 +459,6 @@ aside p {
 
 #listen {
   background: #444;
-  width: 870px;
-  clear: both;
   padding: 15px 35px;
   overflow: hidden;
 }
