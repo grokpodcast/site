@@ -803,10 +803,11 @@ footer p {
   margin: 10px auto;
 }
 
-#footer-logo {
-  width: 50px; height:76px;
+.support a img {
+  width: 150px;
+  margin: 10px auto;
 }
 
-#footer-logo:hover {
+.support a:hover img {
   opacity: .9;
 }
