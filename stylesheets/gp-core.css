@@ -5,23 +5,36 @@
 Author: HE:labs
 */
 
+
+/* Reset */
+
 body, h1, h2, h3, h4,
 form, fieldset, input, label, p,
 em, strong, a, img, ul, li {
-	padding:0; margin:0; border:0;
-	vertical-align:baseline;
-	font-style:normal;
+	vertical-align: baseline;
+	font-style: normal;
+  list-style-type: none;
+	padding: 0;
+  margin: 0;
+  border: 0;
 }
 
-header, footer, aside, nav, article, section {display:block}
+html { font-size: 62.5%; }
 
-html {font-size:62.5%}
+header, footer, aside, nav, article, section { display: block; }
 
-label {cursor:pointer}
-img {border:none}
+label { cursor: pointer; }
+img { border: none; }
 
-ul {margin:0; padding:0}
-li {list-style-type:none}
+
+/* Generic */
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li { list-style-type: none; }
 
 a {
 	text-decoration:none;
