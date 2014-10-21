@@ -150,12 +150,10 @@ Media Queries for Smartphones
   /* Topbar */
 
   #topbar {
-    width:100%; height:56px;
-  	background:#3a3f53;
-    border-bottom:5px solid #bbbbcd;
-    float:left;
-    z-index:200;
-    display:block;
+  	background: #3a3f53;
+    border-bottom: 5px solid #bbbbcd;
+    padding: 3px 0 12px 0;
+    z-index: 200;
   }
 
   #topbar a {
