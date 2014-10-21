@@ -702,6 +702,11 @@ header a:hover {
   margin-left: 195px;
 }
 
+#about .content p {
+  font-size: 16px;
+  line-height: 26px;
+}
+
 
 /* Forms */
 
