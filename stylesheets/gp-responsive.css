@@ -183,8 +183,13 @@ Media Queries for Smartphones
   #topbar {
   	background: #3a3f53;
     border-bottom: 5px solid #bbbbcd;
-    padding: 3px 0 12px 0;
+    padding: 15px 0 15px 0;
     z-index: 200;
+  }
+  
+  #topbar h1 a img {
+    width: 140px;
+    margin: 0;
   }
 
 

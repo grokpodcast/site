@@ -70,16 +70,6 @@ address {
 
 /* Headlines */
 
-h1 a {
-	text-indent:-9999px;
-	outline:none;
-	float:left;
-}
-
-h1 a:hover {
-    opacity:.9;
-}
-
 h2 {
   font-weight:normal;
 }
@@ -132,6 +122,16 @@ aside img {
 header {
   padding: 20px 0;
   clear: both;
+}
+
+h1 a {
+	text-indent: -9999px;
+	outline: none;
+	float: left;
+}
+
+h1 a:hover {
+  opacity:.9;
 }
 
 h1 a img {
