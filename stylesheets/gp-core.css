@@ -360,6 +360,42 @@ header a:hover {
   line-height: 24px;
 }
 
+#podcast {
+  display: block;
+  margin: 30px 0;
+}
+
+#podcast-infos {
+  background: #fff;
+  border-bottom: 1px #ececec solid;
+  padding: 0 0 15px 0;
+  font-size: 14px;
+  margin-top: -20px;
+}
+
+#podcast-infos #published_on {
+  margin-left: 20px;
+}
+
+.duration,
+.download-podcast {
+  padding: 0 0 0 35px;
+  width: 80px;
+  height: 30px;
+  line-height: 27px;
+  display: inline-block;
+}
+
+.duration {
+  background: url("/images/time-ico.png") no-repeat left top;
+  display: inline-block;
+}
+
+.download-podcast {
+  background: url("/images/download-ico.png") no-repeat left top;
+  color: #8c88fc;
+}
+
 
 /* Shownotes */
 
@@ -649,42 +685,6 @@ header a:hover {
 
 .series-list .serie-posts a:hover {
   background: #FFCA00;
-}
-
-#podcast {
-  display: block;
-  margin: 30px 0;
-}
-
-#podcast-infos {
-  background: #fff;
-  border-bottom: 1px #ececec solid;
-  padding: 0 0 15px 0;
-  font-size: 14px;
-  margin-top: -20px;
-}
-
-#podcast-infos #published_on {
-  margin-left: 20px;
-}
-
-.duration,
-.download-podcast {
-  padding: 0 0 0 35px;
-  width: 80px;
-  height: 30px;
-  line-height: 27px;
-  display: inline-block;
-}
-
-.duration {
-  background: url("/images/time-ico.png") no-repeat left top;
-  display: inline-block;
-}
-
-.download-podcast {
-  background: url("/images/download-ico.png") no-repeat left top;
-  color: #8c88fc;
 }
 
 

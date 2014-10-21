@@ -93,10 +93,6 @@ Media Queries for Smartphones
     margin: 15px 0;
   }
   
-  #podcast-infos {
-    
-  }
-  
   
   /* Content */
 
@@ -107,9 +103,21 @@ Media Queries for Smartphones
     padding-right: 5%;
   }
 
-  #entry {
+
+  /* Post */
+
+  .post-content #entry {
   	width: 100%;
     padding: 0;
+  }
+  
+  .post-content aside img {
+    display: none;
+  }
+  
+  
+  #podcast-infos {
+    
   }
 
 
