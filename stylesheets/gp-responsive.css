@@ -209,47 +209,27 @@ Media Queries for Smartphones
   /* Content */
 
   #content {
-    width:90% !important;
-    padding:0 5% 0 5% !important;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   #entry {
-  	width:100%;
-    padding:0;
+  	width: 100%;
+    padding: 0;
   }
-
-
-  /* Content */
-
-	#content {
-		width:100%;
-    padding:30px 0 0 0;
-	}
 
 
   /* Aside */
 
   aside {
-    width:100%;
+    width: 100%;
   }
 
   aside img {
-    display:none;
+    display: none;
   }
 
-
-	/* Footer */
-
-	footer {
-
-	}
-
-  footer .support,
-  footer p.license {
-    float: none;
-    width: auto;
-    text-align: center;
-  }
 
   /* Custom profile page rules */
   #profile .content {
@@ -295,15 +275,6 @@ Media Queries for Smartphones
 }
 
 
-/* Max Width, 601px */
-
-@media (max-width:601px) {
-
-
-
-}
-
-
 /* Max Width, 381px */
 
 @media (max-width:381px) {
@@ -314,13 +285,5 @@ Media Queries for Smartphones
   	font-size:20px;
     line-height:30px;
   }
-
-}
-
-/* Max Width, 281px */
-
-@media (max-width:281px) {
-
-
 
 }
