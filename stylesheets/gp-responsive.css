@@ -73,12 +73,6 @@ Media Queries for Smartphones
 
 @media only screen and (max-width: 686px) {
 
-  /* General */
-
-  body {
-    background: #7b7b90 !important;
-  }
-
 
   /* Page */
 
@@ -91,10 +85,6 @@ Media Queries for Smartphones
     display: none;
   }
 
-  #content {
-    border-radius: 4px;
-  }
-  
   #page-infos,
   #series-infos,
   #post-infos {
@@ -104,6 +94,32 @@ Media Queries for Smartphones
   
   #podcast-infos {
     
+  }
+  
+  
+  /* Content */
+
+  #content {
+    border-radius: 4px;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  #entry {
+  	width: 100%;
+    padding: 0;
+  }
+
+
+  /* Aside */
+
+  aside {
+    width: 100%;
+  }
+
+  aside img {
+    display: none;
   }
 
   
@@ -158,76 +174,17 @@ Media Queries for Smartphones
   }
 
 
-  /* Topbar */
+  /* Topbar and Header */
+  
+  header {
+    display: none;
+  }
 
   #topbar {
   	background: #3a3f53;
     border-bottom: 5px solid #bbbbcd;
     padding: 3px 0 12px 0;
     z-index: 200;
-  }
-
-  #topbar a {
-    text-shadow:none;
-    height:44px;
-  	background:#5a5a5a;
-    line-height:44px;
-    padding:0 15px 0 15px;
-    margin-left:1px;
-    color:#d5d5d5;
-    float:right;
-  }
-
-  #topbar h1 a {
-  	width:120px; height:40px;
-  	background:url("/images/m-logo.png") left no-repeat;
-    padding:0 0 0 55px;
-    margin:8px 0 0 0;
-    font-size:15px;
-    text-indent:inherit;
-    color:#fff;
-    float:left !important;
-  }
-
-	@media only screen and (min-resolution: 192dpi) {
-
-  	h1 a {
-  	    background:url("/images/m-logo2x.png") left no-repeat;
-  	    background-size:120px 80px;
-  	}
-
-	}
-
-
-  /* Header */
-
-  header {
-    display: none;
-  }
-
-
-  /* Content */
-
-  #content {
-    width: 90%;
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-
-  #entry {
-  	width: 100%;
-    padding: 0;
-  }
-
-
-  /* Aside */
-
-  aside {
-    width: 100%;
-  }
-
-  aside img {
-    display: none;
   }
 
 
