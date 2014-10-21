@@ -95,6 +95,12 @@ Media Queries for Smartphones
     border-radius: 4px;
   }
   
+  #page-infos,
+  #series-infos {
+    border-radius: 4px;
+    margin: 15px 0;
+  }
+
   
   /* Home */
 
