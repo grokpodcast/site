@@ -709,35 +709,6 @@ aside p {
 }
 
 
-/* Profile */
-
-#profile .content ul {
-  margin: 10px 0 0 20px;
-}
-
-#profile .content li {
-  list-style-type: disc;
-  margin-bottom: 5px;
-}
-
-#profile .content p:first-child {
-  margin-top: 0;
-}
-
-#profile .image {
-  width: 200px;
-  float: left;
-  margin-right: 30px;
-}
-
-#disqus_thread {
-  float: left;
-  margin-top: 30px;
-  clear: both;
-  width: 100%;
-}
-
-
 /* Forms */
 
 #contact input,
@@ -839,6 +810,13 @@ footer p {
 
 
 /* General Class */
+
+#disqus_thread {
+  float: left;
+  margin-top: 30px;
+  clear: both;
+  width: 100%;
+}
 
 .input-hide {
   display:none;

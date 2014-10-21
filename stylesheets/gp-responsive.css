@@ -225,12 +225,6 @@ Media Queries for Smartphones
     padding: 0 10px;
   }
 
-
-  /* Custom profile page rules */
-  #profile .content {
-    width: 100%;
-  }
-
   /* Custom podcast episode rules */
   #podcast audio {
     width: 100%;
