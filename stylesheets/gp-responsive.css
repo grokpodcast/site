@@ -189,8 +189,28 @@ Media Queries for Smartphones
   }
   
   #topbar h1 a img {
+    float: none;
+    display: inline-block;
+  }
+  
+  #topbar h1 a img {
     width: 140px;
     margin: 0;
+  }
+  
+  #topbar ul {
+    margin-top: 14px;
+    display: block;
+  }
+  
+  #topbar ul a {
+    margin-top: 1px;
+    background: #7b7b90;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 10px;
+    display: block;
+    color: #fff;
   }
 
 

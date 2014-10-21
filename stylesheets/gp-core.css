@@ -131,7 +131,6 @@ header {
 h1 a {
 	text-indent: -9999px;
 	outline: none;
-	float: left;
 }
 
 h1 a:hover {
