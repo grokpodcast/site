@@ -48,13 +48,12 @@ a:hover {
 }
 
 body {
-  border-top:5px solid #ffca00;
+  border-top: 5px solid #ffca00;
 	font-family: Arial, sans-serif, sans-serif;
-	background:#000 url("/images/bg.jpg") top right fixed no-repeat;
-	font-size:14px;
-  line-height:20px;
-	color:#797a7a;
-	margin:0;
+	background: #000 url("/images/bg.jpg") top right fixed no-repeat;
+	font-size: 14px;
+	color: #797a7a;
+	margin: 0;
 }
 
 p {
@@ -96,24 +95,6 @@ h4 {
 .holder {
   width: 940px;
 	margin: auto;
-}
-
-
-/* Content */
-
-#entry {
-	width: 550px;
-}
-
-
-/* Aside */
-
-aside {
-	width: 290px;
-}
-
-aside img {
-  width: 288px;
 }
 
 
@@ -317,6 +298,7 @@ header a:hover {
   border-bottom-right-radius: 4px;
   background: #fff;
   padding: 40px 30px 20px 30px;
+  position: relative;
 }
 
 #content:after {
@@ -329,21 +311,53 @@ header a:hover {
   min-height: 0;
 }
 
-#entry {
-	width:550px;
-  padding:26px 0 0 0;
-  float:left;
+
+/* Post Entry */
+
+.post-content #entry {
+	width: 550px;
+  padding: 30px 0 0 0;
+  margin-right: 320px;
 }
 
-#entry ul {
+.post-content #entry p {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.post-content #entry ul {
   clear: both;
   margin-left: 20px;
   padding: 0;
 }
 
-#entry li {
+.post-content #entry li {
   list-style-type: disc;
   margin-bottom: 5px;
+}
+
+
+/* Post Aside */
+
+.post-content aside {
+	width: 290px;
+  padding-bottom: 40px;
+	float: left;
+}
+
+.post-content aside img {
+  border: 1px solid #ececec;
+  position: absolute;
+  background: #fff;
+  padding: 10px;
+  right: 30px;
+  top: 30px;
+  width: 268px;
+}
+
+.post-content aside p {
+  font-size: 14px;
+  line-height: 24px;
 }
 
 
@@ -368,24 +382,6 @@ header a:hover {
 
 .sample li:first-child {
   margin-top:0;
-}
-
-
-/* Aside */
-
-aside {
-  margin-top:-21px;
-  padding-bottom:40px;
-	float:right;
-}
-
-aside img {
-  border:1px solid #ececec;
-}
-
-aside p {
-  font-size:14px !important;
-  line-height:24px;
 }
 
 
