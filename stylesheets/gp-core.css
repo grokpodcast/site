@@ -391,7 +391,6 @@ aside p {
 #featured-episode {
   position: relative;
   height: 301px;
-  clear: both;
 }
 
 #featured-episode img {
