@@ -185,6 +185,7 @@ Media Queries for Smartphones
     border-bottom: 5px solid #bbbbcd;
     padding: 15px 0 15px 0;
     z-index: 200;
+    display: block;
   }
   
   #topbar h1 a img {
