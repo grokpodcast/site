@@ -114,13 +114,15 @@ Media Queries for Smartphones
 
 
   /* Aside */
-
-  aside {
+  
+  #about aside {
     width: 100%;
+    text-align: center;
+    float: none;
   }
 
-  aside img {
-    display: none;
+  #about .content {
+    margin-left: 0;
   }
 
   
