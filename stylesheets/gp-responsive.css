@@ -79,6 +79,7 @@ Media Queries for Smartphones
 	.holder {
     overflow: hidden;
 		width: 92%;
+    position: relative;
 	}
 
   #navigation {
@@ -183,24 +184,20 @@ Media Queries for Smartphones
   #topbar {
   	background: #3a3f53;
     border-bottom: 5px solid #bbbbcd;
-    padding: 15px 0 15px 0;
     z-index: 200;
     display: block;
   }
   
   #topbar h1 a img {
+    width: 140px;
+    margin: 15px 0 15px 0;
     float: none;
     display: inline-block;
   }
   
-  #topbar h1 a img {
-    width: 140px;
-    margin: 0;
-  }
-  
   #topbar ul {
-    margin-top: 14px;
-    display: block;
+    margin-bottom: 15px;
+    display: none;
   }
   
   #topbar ul a {
@@ -211,6 +208,21 @@ Media Queries for Smartphones
     padding: 0 10px;
     display: block;
     color: #fff;
+  }
+
+
+  /* Menu */
+  
+  #nav-trigger {
+    border-radius: 4px;
+    height: 34px;
+    line-height: 34px;
+    background: #7b7b90;
+    position: absolute;
+    right: 0;
+    top: 9px;
+    color: #fff;
+    padding: 0 10px;
   }
 
 
