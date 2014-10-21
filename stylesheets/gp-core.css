@@ -756,11 +756,9 @@ aside p {
 /* Footer */
 
 footer {
-  width:100%;
-  text-align:center;
-  margin:20px 0 80px 0;
-  color:#fff;
-  float:left;
+  text-align: center;
+  margin: 20px 0 80px 0;
+  color: #fff;
   font-size: 12px;
 }
 

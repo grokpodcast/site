@@ -226,6 +226,15 @@ Media Queries for Smartphones
     color: #fff;
     padding: 0 10px;
   }
+  
+  
+  /* Footer */
+  
+  .license {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
 
   /* Custom podcast episode rules */
   #podcast audio {
