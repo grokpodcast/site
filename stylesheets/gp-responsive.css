@@ -128,6 +128,10 @@ Media Queries for Smartphones
     text-align: center;
     float: none;
   }
+  
+  #about aside img {
+    margin-bottom: 30px;
+  }
 
   #about .content {
     margin-left: 0;
