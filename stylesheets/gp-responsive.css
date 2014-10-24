@@ -1,0 +1,328 @@
+@charset "utf-8";
+
+
+/* Viewport */
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+@viewport {
+  zoom: 1.0;
+  width: extend-to-zoom;
+}
+
+@-ms-viewport {
+  width: extend-to-zoom;
+  zoom: 1.0;
+}
+
+
+/*
+Max Width, 960px
+Media Queries for Tablets
+------------------------------------------------------------------------------*/
+
+@media (max-width: 960px) {
+
+
+  /* Page */
+
+  .holder {
+    width: 700px;
+  }
+
+
+  /* General */
+  
+  #search {
+    display: none;
+  }
+
+  header ul {
+    display: none;
+  }
+
+
+  /* Content */
+
+  #entry {
+  	width: 370px;
+  }
+
+
+  /* Aside */
+
+  aside {
+    width: 230px;
+  }
+
+  aside img {
+    width: 228px;
+  }
+  
+  
+  /* Apoios */
+  
+  .support-list li {
+    width: 39%;
+    height: 120px;
+  }
+
+  .support-list a img {
+    width: 80%;
+  }
+
+}
+
+
+/*
+Max Width, 686px
+Media Queries for Smartphones
+------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 686px) {
+
+
+  /* Page */
+
+	.holder {
+    overflow: hidden;
+		width: 92%;
+    position: relative;
+	}
+
+  #navigation {
+    display: none;
+  }
+
+  #page-infos,
+  #series-infos,
+  #post-infos {
+    border-radius: 4px;
+    margin: 15px 0;
+  }
+  
+  
+  /* Content */
+
+  #content {
+    border-radius: 4px;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+
+  /* Post */
+
+  .post-content #entry {
+  	width: 100%;
+    padding: 0;
+  }
+  
+  .post-content aside img {
+    display: none;
+  }
+  
+  
+  #podcast-infos {
+    
+  }
+
+
+  /* Aside */
+  
+  #about aside {
+    width: 100%;
+    text-align: center;
+    float: none;
+  }
+  
+  #about aside img {
+    margin-bottom: 30px;
+  }
+
+  #about .content {
+    margin-left: 0;
+  }
+
+  
+  /* Home */
+
+  #featured-episode {
+    border-radius: 4px;
+    background: #444;
+    height: auto;
+    padding: 15px 0 13px 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  #featured-episode img {
+    display: none;
+  }
+
+  #featured-episode a {
+    margin: 0 auto;
+    position: static;
+  }
+
+  #listen {
+    display: none;
+  }
+
+  #listen ul {
+    overflow: visible;
+    width: auto;
+  }
+
+  #listen li {
+    margin: 5px auto;
+    float: none;
+  }
+  
+  
+  /* Series */
+
+  .series-list {
+    margin-top: 10px;
+  }
+
+  .series-list ul {
+    width: auto;
+  }
+
+  .series-list li {
+    float: none;
+    margin: 0 auto 50px auto;
+  }
+  
+
+  /* Apoios */
+  
+  .support-single a img {
+    width: 96%;
+    padding: 4% 2%;
+    height: auto;
+  }
+  
+  .support-list li {
+    width: 96%;
+    padding: 4% 2%;
+    height: auto;
+    margin: 0 0 15px 0;
+  }
+
+  .support-list a img {
+    width: 80%;
+  }
+
+
+  /* Topbar and Header */
+  
+  header {
+    display: none;
+  }
+
+  #topbar {
+  	background: #3a3f53;
+    border-bottom: 5px solid #bbbbcd;
+    z-index: 200;
+    display: block;
+  }
+  
+  #topbar h1 a img {
+    width: 140px;
+    margin: 15px 0 10px 0;
+    float: none;
+    display: inline-block;
+  }
+  
+  #topbar ul {
+    margin-bottom: 15px;
+    display: none;
+  }
+  
+  #topbar ul a {
+    margin-top: 1px;
+    background: #7b7b90;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 10px;
+    display: block;
+    color: #fff;
+  }
+
+
+  /* Menu */
+
+  #nav-trigger {
+    border-radius: 4px;
+    height: 34px;
+    line-height: 34px;
+    background: #7b7b90;
+    position: absolute;
+    right: 0;
+    top: 9px;
+    color: #fff;
+    padding: 0 10px;
+  }
+
+
+  /* Footer */
+
+  .license {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+
+  /* Custom podcast episode rules */
+  #podcast audio {
+    width: 100%;
+  }
+
+  /* Custom mobile navigation rules */
+  #mobile-navigation {
+    display: block;
+  }
+  #mobile-navigation ul {
+    padding: 10px 0px 10px 0;
+  }
+  #mobile-navigation li {
+    background-color: #3a3f53;
+    padding: 2px;
+    margin: 4px 0px 4px 0px;
+  }
+
+
+  /* Custom episode list rules */
+  .epi-list li {
+    float: none;
+  }
+
+  /* Custom contact page rules */
+  #contact input,
+  #contact textarea,
+  #search-404 input,
+  #search-404 textarea {
+    width: 80%;
+  }
+}
+
+
+/* Max Width, 381px */
+
+@media (max-width:381px) {
+
+  /* Content */
+
+  #entry h2 {
+  	font-size:20px;
+    line-height:30px;
+  }
+
+}

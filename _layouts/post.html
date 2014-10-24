@@ -22,27 +22,27 @@
 
         <h2>{{ page.title }}</h2>
 
-        <!-- AddThis Button BEGIN -->
         <div class="addthis_toolbox addthis_default_style">
           <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
           <a class="addthis_button_tweet"></a>
         </div>
-        <!-- AddThis Button END -->
+
       </section> <!-- /post-infos -->
 
-      <section id="content">
+      <section id="content" class="post-content"> 
 
         <section id="podcast-infos">
+
           <div class="duration">
             {{ page.duration }}
           </div>
-
           <a href="{{ site.podcast_file_storage }}{{ page.podcast_file_name }}" title="Download" class="download-podcast">Download</a>
-
           <span id="published_on">Publicado em {{ page.date | date: "%d/%m/%Y" }}</span>
-        </section>
+
+        </section> <!-- /podcast-infos -->
 
         <div id="entry">
+
           {{ content }}
 
           {% include audio_control.html %}
@@ -54,7 +54,8 @@
           {% include shownotes.html %}
 
           {% include footnotes.html %}
-        </div>
+
+        </div> <!-- /entry -->
 
         <aside>
           <img class="alignleft size-medium wp-image-305" src="{{ page.img_src }}" alt="{{ post.img_alt }}" title="{{ post.img_title }}" width="300" />
@@ -76,7 +77,6 @@
         <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
       </section>
 
-      {% include mobile_navigation.html %}
     </div> <!-- holder -->
 
     {% include footer.html %}
