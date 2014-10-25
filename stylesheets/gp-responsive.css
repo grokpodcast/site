@@ -203,9 +203,17 @@ Media Queries for Smartphones
 
   /* Apoios */
   
+  .support-single a img {
+    width: 96%;
+    padding: 4% 2%;
+    height: auto;
+  }
+  
   .support-list li {
-    width: 48% !important;
-    height: 120px;
+    width: 96%;
+    padding: 4% 2%;
+    height: auto;
+    margin: 0 0 15px 0;
   }
 
   .support-list a img {
