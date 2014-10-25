@@ -62,6 +62,18 @@ Media Queries for Tablets
   aside img {
     width: 228px;
   }
+  
+  
+  /* Apoios */
+  
+  .support-list li {
+    width: 39%;
+    height: 120px;
+  }
+
+  .support-list a img {
+    width: 80%;
+  }
 
 }
 
@@ -186,6 +198,18 @@ Media Queries for Smartphones
   .series-list li {
     float: none;
     margin: 0 auto 50px auto;
+  }
+  
+
+  /* Apoios */
+  
+  .support-list li {
+    width: 48% !important;
+    height: 120px;
+  }
+
+  .support-list a img {
+    width: 80%;
   }
 
 
