@@ -29,14 +29,14 @@
 
       </section> <!-- /post-infos -->
 
-      <section id="content" class="post-content"> 
+      <section id="content" class="post-content">
 
         <section id="podcast-infos">
 
           <div class="duration">
             {{ page.duration }}
           </div>
-          <a href="{{ site.podcast_file_storage }}{{ page.podcast_file_name }}" title="Download" class="download-podcast">Download</a>
+          <a href="{{ site.podcast_file_storage }}{{ page.podcast_file_name }}" title="Download" class="download-podcast" download="{{ page.podcast_file_name }}">Download</a>
           <span id="published_on">Publicado em {{ page.date | date: "%d/%m/%Y" }}</span>
 
         </section> <!-- /podcast-infos -->
