@@ -9,7 +9,7 @@ sass:
   style:  compressed  # nested|expanded|compact|compressed
 
 featured:
-  title: "Extra - RubyConf Brasil 2014"
+  title: "Brasileiros em Berlim"
 
 collections:
   series:
