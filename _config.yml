@@ -20,5 +20,8 @@ deploy:
   github_pages:
     target_repository: 'grokpodcast/site'
 
+itunes:
+  url: 'http://itunes.apple.com/br/podcast/grok-podcast/id393122038'
+
 gems:
   - jekyll-redirect-from
