@@ -9,7 +9,8 @@ sass:
   style:  compressed  # nested|expanded|compact|compressed
 
 featured:
-  title: "Brasileiros em Berlim"
+  title: "Swift"
+  image: /images/2015/02/header-swift.jpg
 
 collections:
   series:
