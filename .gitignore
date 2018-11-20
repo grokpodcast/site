@@ -7,3 +7,4 @@ bin/
 .rvmrc
 vendor/
 _vendor/
+Gemfile.lock
