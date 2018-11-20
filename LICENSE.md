@@ -1,6 +1,6 @@
 # LICENÇA DE USO
 
-O conteúdo do Grok Podcast é criado por Carlos Brando e Rafael Rosa, e licenciado sob o [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_GB). Para obter permissões além do que é oferecido pela licença, entre em contato através de http://grokpodcast.com/contato
+O conteúdo do Grok Podcast é criado por Carlos Brando e Rafael Rosa, e licenciado sob o [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_GB). Para obter permissões além do que é oferecido pela licença, entre em contato através de http://grokpodcast.com.br/contato
 
 Algumas das imagens utilizadas são liberadas sob o Creative Commons. Nesses casos explicitamos a licença utilizada com atribuição e link para o original.
 
@@ -8,7 +8,7 @@ Algumas das imagens utilizadas são liberadas sob o Creative Commons. Nesses cas
 
 # LICENSE
 
-Grok Podcast by Carlos Brando and Rafael Rosa is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_GB). Based on a work at http://grokpodcast.com. Permissions beyond the scope of this license may be available at http://grokpodcast.com/contato
+Grok Podcast by Carlos Brando and Rafael Rosa is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_GB). Based on a work at http://grokpodcast.com.br. Permissions beyond the scope of this license may be available at http://grokpodcast.com.br/contato
 
 Some of the images we use are released under the Creative Commons. When this happens we display the license information with attributiona and link to the original image.
 

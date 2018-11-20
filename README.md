@@ -1,4 +1,4 @@
-# [Grok Podcast Website](http://grokpodcast.com)
+# [Grok Podcast Website](http://grokpodcast.com.br)
 
 ## Setup with Vagrant
 
@@ -30,7 +30,7 @@ bin/jekyll serve
 ## Acknowledgments
 
 * Thanks to our faithful audience, valeu galera :)*
-* Thanks to our [sponsors](http://grokpodcast.com/apoios), you make our life easier
+* Thanks to our [sponsors](http://grokpodcast.com.br/apoios), you make our life easier
 * Design and implementation by [HE:Labs](http://helabs.com), thanks for the awesome design
 * Developed with [Ruby](http://www.ruby-lang.org/en/) and Jekyll(http://jekyllrb.com/), thanks to our wonderful community
 * Source code hosted on [GitHub](http://github.com/), thanks for this wonderful service

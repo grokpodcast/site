@@ -1,5 +1,5 @@
-base_url: http://www.grokpodcast.com
-podcast_file_storage: http://media.grokpodcast.com/
+base_url: https://www.grokpodcast.com.br
+podcast_file_storage: http://media.grokpodcast.com.br/
 google_analytics_code: UA-18562844-1
 permalink:  pretty
 markdown:   kramdown
