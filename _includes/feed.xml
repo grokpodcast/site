@@ -20,6 +20,11 @@
     <copyright>Copyright © Grok Podcast 2010 - 2013</copyright>
     <managingEditor>eduardobrando@gmail.com (Grok Podcast)</managingEditor>
     <webMaster>eduardobrando@gmail.com (Grok Podcast)</webMaster>
+    <image>
+      <url>{{ site.base_url}}/images/logo_rss_small.jpg</url>
+      <title>Grok Podast</title>
+      <link>{{ site.base_url }}</link>
+    </image>
 
     <itunes:new-feed-url>{{site.base_url}}/atom.xml</itunes:new-feed-url>
     <itunes:subtitle></itunes:subtitle>
