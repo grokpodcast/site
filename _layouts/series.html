@@ -31,7 +31,7 @@
           </div>
     
           <ul>
-            {% assign episodes = (site.posts | where: "serie", page.title | sort: "episode") %}
+            {% assign episodes = site.posts | where: "serie", page.title | sort: "episode" %}
             {% for episode in episodes %}
               <li>
                 <a href="{{ episode.url }}" title="{{ episode.title }}">

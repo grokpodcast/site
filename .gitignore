@@ -8,3 +8,4 @@ bin/
 vendor/
 _vendor/
 Gemfile.lock
+.jekyll-cache/

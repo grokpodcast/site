@@ -1,5 +1,5 @@
 base_url: https://www.grokpodcast.com.br
-podcast_file_storage: http://media.grokpodcast.com.br/
+podcast_file_storage: https://media.grokpodcast.com.br/
 google_analytics_code: UA-18562844-1
 permalink:  pretty
 markdown:   kramdown
@@ -22,7 +22,7 @@ deploy:
     target_repository: 'grokpodcast/site'
 
 itunes:
-  url: 'http://itunes.apple.com/br/podcast/grok-podcast/id393122038'
+  url: 'https://itunes.apple.com/br/podcast/grok-podcast/id393122038'
 
 gems:
   - jekyll-redirect-from
